@@ -11,10 +11,10 @@ const GlobalStyles = createGlobalStyle`
         line-height: 24px;
         font-weight: 400;
         margin: 0;        
-        padding: 60px 0 50px;
+        padding: 60px 0 0;
 
         @media screen and (min-width: 1280px) {
-            padding: 80px 0 50px;
+            padding: 80px 0 0;
         }
     }
     button:focus{

@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/header';
+import Footer from './components/footer'
 import Home from './pages/home';
 import AuraMaster from './pages/aura-master';
 import TerapiaCosmica from './pages/terapia-cosmica';
@@ -16,6 +17,7 @@ function App() {
           <Route path='/terapia-cosmica' element={<TerapiaCosmica />} />
           <Route path='/unconcious-therapy' element={<UnconciousTherapy />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );

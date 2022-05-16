@@ -147,18 +147,24 @@ function TerapiaCosmica () {
                         <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                         <p>Leia as informações e marque TODAS as alternativas:</p>
                         <p>
+                        <label>
                             <input ref={check1}
                                 name="isGoing"
                                 type="checkbox"
                                 onChange={() => handleInputChange()} /> Estou ciente de que eu sou responsável pelo meu processo, e não o terapeuta<br />
+                            </label>
+                            <label>
                             <input ref={check2}
                                 name="isGoing"
                                 type="checkbox"
                                 onChange={() => handleInputChange()} /> Estou aberto e permito que meu campo seja acessado, a fim de que as curas necessárias aconteçam<br />
+                            </label>
+                            <label>
                             <input ref={check3}
                                 name="isGoing"
                                 type="checkbox"
                                 onChange={() => handleInputChange()} /> Estou ciente que só poderei cancelar meu atendimento até 24 horas antes da data e hora agendada.
+                            </label>
                         </p>
                         <ButtonLink className={`${!disabled ? "disabled" : ""}`} href="https://calendly.com/alynebastoss/terapia-cosmica-de-lotus" target="_blank">Quero Agendar!</ButtonLink>
                     </Box>

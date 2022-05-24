@@ -131,12 +131,11 @@ function UnconciousTherapy () {
                     Banco: Nubank - 0260<br />
                     Agência: 0001<br />
                     Conta: 85967030-2</p>
-                    <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta.</p>
+                    <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o WhatsApp: <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">(51) 98301-1098</a>.</p>
                     <Icon icon={faEllipsis} />
                     <p>A duração do atendimento de Unconcious Therapy varia entre 1h e 2h, então reserve este tempo no dia do atendimento.</p>
                     <p><b>Importante:</b> Nessa técnica você tem que ficar deitada(o) a maior parte do tempo, com o computador/webcam, notebook ou celular mostrando seu rosto e tórax, então já se programe antecipadamente.</p>
                     <p>O atendimento é online, pelo Google Meet. O link será enviado para o seu whatsapp alguns minutos antes da consulta.</p>
-                    <p>Para qualquer eventualidade, pode entrar em contato comigo pelo WhatsApp: (51) 98301-1098</p>
                     <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                     <p>Leia as informações e marque TODAS as alternativas:</p>
                     <p>

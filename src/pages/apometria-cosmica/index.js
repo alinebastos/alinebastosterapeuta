@@ -154,7 +154,7 @@ function ApometriaCosmica () {
                     Banco: Nubank - 0260<br />
                     Agência: 0001<br />
                     Conta: 85967030-2</p>
-                    <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta.</p>
+                    <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o WhatsApp: <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">(51) 98301-1098</a>.</p>
                     <Icon icon={faEllipsis} />
                     <p><b>Informações sobre o atendimento:</b></p>
                     <p>
@@ -167,7 +167,6 @@ function ApometriaCosmica () {
                     <p>O atendimento é realizado a distância, não é necessário realizar nenhum tipo de chamada (inclusive vídeo).</p>
                     <p>O atendimento dura em torno de 1 hora.</p>
                     <p>Depois é encaminhado um áudio, gravado com o que foi feito no atendimento</p>
-                    <p>Para qualquer eventualidade, pode entrar em contato comigo pelo WhatsApp: (51) 98301-1098</p>
                     <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                     <p>Leia as informações e marque TODAS as alternativas:</p>
                     <p>

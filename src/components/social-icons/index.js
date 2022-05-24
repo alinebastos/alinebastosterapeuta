@@ -26,10 +26,10 @@ const Icon = styled(FontAwesomeIcon)`
 function SocialIcons () {
     return (
         <section>
-            <IconLink href='https://api.whatsapp.com/send?phone=5551983011098'><Icon icon={faWhatsapp} /></IconLink>
-            <IconLink href="mailto:alinebastosterapeuta@gmail.com"><Icon icon={faEnvelope} /></IconLink>
-            <IconLink href="https://www.instagram.com/alynebastossterapeuta/"><Icon icon={faInstagram} /></IconLink>
-            {/* <a href="https://www.instagram.com/alynebastoss/"><Icon icon={faYoutube} /></a> */}
+            <IconLink href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank"><Icon icon={faWhatsapp} /></IconLink>
+            <IconLink href="mailto:alynebastossterapeuta@gmail.com" target="blank"><Icon icon={faEnvelope} /></IconLink>
+            <IconLink href="https://www.instagram.com/alynebastossterapeuta/" target="_blank"><Icon icon={faInstagram} /></IconLink>
+            {/* <a href="https://www.instagram.com/alynebastoss/" target="_blank"><Icon icon={faYoutube} /></a> */}
         </section>
     );
 }

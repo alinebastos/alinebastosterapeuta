@@ -102,7 +102,7 @@ function Footer () {
                             </MenuLink>
                         </li>
                         <li>
-                            <MenuLink to="/apometria/cosmica" alt="Link para a página de Apometria Cósmica">
+                            <MenuLink to="/apometria-cosmica" alt="Link para a página de Apometria Cósmica">
                                 Apometria Cósmica
                             </MenuLink>
                         </li>

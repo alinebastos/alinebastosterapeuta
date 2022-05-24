@@ -27,10 +27,15 @@ const GlobalStyles = createGlobalStyle`
     }
     h1 {
         color: #fff;
-        font-size: 60px;
+        font-size: 50px;
         text-shadow: 0px 0px 4px rgba(0,0,0,0.7);
         line-height: 70px;
         text-align: center;
+        padding: 20px;       
+
+        @media screen and (min-width: 768px) {
+            font-size: 60px;
+        }
     }
     h2 {
         font-size: 30px;

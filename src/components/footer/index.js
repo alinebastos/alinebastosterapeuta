@@ -74,10 +74,15 @@ const Icons = styled(SocialIcons)`
 `
 
 const Social = styled.div`
+    span {
+        display: none;
+    }
+
     @media screen and (min-width: 768px) {
         display: flex;
 
         span {
+            display: block;
             font-weight: 600;
             color: #fff;
         }

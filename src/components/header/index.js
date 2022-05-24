@@ -157,7 +157,7 @@ const MenuLink = styled(NavLink)`
     color: #303030;
     text-transform: uppercase;
     line-height: 20px;
-    padding: 0 20px;
+    padding: 0 30px;
 
     &.active {
         color: #2acb35;
@@ -166,7 +166,7 @@ const MenuLink = styled(NavLink)`
     img {
         opacity: 0;   
         position: absolute;
-        right: -5px;
+        right: 5px;
         top: 2px;
         width: 30px;
         height: auto;

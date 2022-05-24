@@ -3,9 +3,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
+const IconLink = styled.a`
+    margin-left: 20px;
+            
+    &:first-of-type {        
+        margin-left: 0;
+    }
+    
+    @media screen and (min-width: 768px) {
+        &:first-of-type {        
+            margin-left: 20px;
+        }
+    }    
+`
+
 const Icon = styled(FontAwesomeIcon)`
     font-size: 20px;
-    margin-left: 15px;
     transition: all 0.5s ease 0s;
     line-height: 14px;
 `
@@ -13,9 +26,9 @@ const Icon = styled(FontAwesomeIcon)`
 function SocialIcons () {
     return (
         <section>
-            <a href='https://api.whatsapp.com/send?phone=5551983011098'><Icon style={{ marginLeft: 0}} icon={faWhatsapp} /></a>
-            <a href="mailto:alinebastosterapeuta@gmail.com"><Icon icon={faEnvelope} /></a>
-            <a href="https://www.instagram.com/alynebastossterapeuta/"><Icon icon={faInstagram} /></a>
+            <IconLink href='https://api.whatsapp.com/send?phone=5551983011098'><Icon icon={faWhatsapp} /></IconLink>
+            <IconLink href="mailto:alinebastosterapeuta@gmail.com"><Icon icon={faEnvelope} /></IconLink>
+            <IconLink href="https://www.instagram.com/alynebastossterapeuta/"><Icon icon={faInstagram} /></IconLink>
             {/* <a href="https://www.instagram.com/alynebastoss/"><Icon icon={faYoutube} /></a> */}
         </section>
     );

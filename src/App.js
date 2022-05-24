@@ -5,6 +5,7 @@ import Home from './pages/home';
 import AuraMaster from './pages/aura-master';
 import TerapiaCosmica from './pages/terapia-cosmica';
 import UnconciousTherapy from './pages/unconcious-therapy';
+import ApometriaCosmica from './pages/apometria-cosmica';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Header />
         <Routes>
           <Route exact path='/' element={<Home />} />
+          <Route path='/apometria-cosmica' element={<ApometriaCosmica />} />
           <Route path='/aura-master' element={<AuraMaster />} />
           <Route path='/terapia-cosmica' element={<TerapiaCosmica />} />
           <Route path='/unconcious-therapy' element={<UnconciousTherapy />} />

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import SiteLogo from './images/AlyneBastoss.png';
+import SiteLogo from './images/AlyneBastoss200.png';
 import Butterfly from './images/Butterfly.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
@@ -16,7 +16,7 @@ const HeaderWrapper = styled.header`
     z-index: 5;
     box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
 
-    @media screen and (min-width: 1100px) {
+    @media screen and (min-width: 1024px) {
         padding: 10px 0;
     }
 `;
@@ -30,7 +30,7 @@ const Container = styled.div`
     height: 60px;
     width: 100%;
 
-    @media screen and (min-width: 1100px) {
+    @media screen and (min-width: 1024px) {
         height: 80px;
         padding: 0 20px;
     }
@@ -38,27 +38,17 @@ const Container = styled.div`
 
 const Logo = styled.div`
     order: 2;
-    width: auto;
-    height: 30px;;
+    width: 200px;
+    height: 32px;
 
-    @media screen and (min-width: 450px) {
-        width: 250px;
-        height: 40px;
-    }
-
-    @media screen and (min-width: 1100px) {
+    @media screen and (min-width: 1024px) {
         order: 1;
     }
 `
 
-const LogoImg = styled.img`
-    width: auto;
-    height: 30px;;
-
-    @media screen and (min-width: 450px) {
-        width: 250px;
-        height: 40px;
-    }
+const LogoImg = styled.img`    
+    width: 200px;
+    height: 32px;
 `
 
 const NavToogle = styled.button`
@@ -75,7 +65,7 @@ const NavToogle = styled.button`
     align-items: center;
     cursor: pointer;
 
-    @media screen and (min-width: 1100px) {
+    @media screen and (min-width: 1024px) {
         display: none;
     }
 `
@@ -89,7 +79,7 @@ const NavWrapper = styled.div`
     order: 1;
     position:relative;
 
-    @media screen and (min-width: 1100px) {
+    @media screen and (min-width: 1024px) {
         order: 2;
     }
 `
@@ -98,7 +88,7 @@ const Nav = styled.nav`
     order: 1;
     display: none;
 
-    @media screen and (max-width: 1099px) {
+    @media screen and (max-width: 1024px) {
         &.show {
             display: block;
             min-width: 320px;
@@ -140,7 +130,7 @@ const Nav = styled.nav`
         }
     }
 
-    @media screen and (min-width: 1100px) {
+    @media screen and (min-width: 1024px) {
         height: 60px;
         position: relative;
         z-index: 7;
@@ -193,6 +183,19 @@ const MenuLink = styled(NavLink)`
 
 const Social = styled.div`
     order: 3;
+
+    span {
+        display: none;
+    }
+
+    @media screen and (min-width: 1024px) {
+        display: flex;
+
+        span {
+            display: block;
+            font-weight: 600;
+        }
+    }    
 `
 
 
@@ -221,14 +224,8 @@ function Header () {
                                 </MenuLink>
                             </li>
                             <li>
-                                <MenuLink to="/aura-master" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página Aura Master">
-                                    Aura Master
-                                    <img src={Butterfly} alt="Alyne Bastoss" />
-                                </MenuLink>
-                            </li>
-                            <li>
-                                <MenuLink to="/terapia-cosmica" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página Terapia Cósmica de Lótus">
-                                    Terapia Cósmica de Lótus
+                                <MenuLink to="/apometria-cosmica" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página de Apometria Cósmica">
+                                    Apometria Cósmica
                                     <img src={Butterfly} alt="Alyne Bastoss" />
                                 </MenuLink>
                             </li>
@@ -242,7 +239,7 @@ function Header () {
                     </Nav>
                 </NavWrapper>
                 <Social>
-                    <SocialIcons />
+                   <span>Contatos:</span> <SocialIcons />
                 </Social>
             </Container>
         </HeaderWrapper>

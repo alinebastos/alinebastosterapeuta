@@ -7,7 +7,7 @@ const Header = styled.div`
     max-width: 1920px;
     height: 500px;
     margin: 0 auto;
-    background-image: url('happiness19.jpg');
+    background-image: url('happiness20.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,6 +33,18 @@ const Main = styled.main`
     max-width: 1024px;
     padding: 0 10px;
     margin: 0 auto;
+`
+
+const ListWrapper = styled.div`
+    margin-bottom: 40px;
+`
+
+const List = styled.ul`
+    li {
+        padding-left: 28px;
+        background: url('check.png') no-repeat center left;
+        font-size: 15px;
+    }
 `
 
 const BoxWrapper = styled.div`
@@ -79,19 +91,21 @@ const ButtonLink = styled.a`
     }
 `
 
-function UnconciousTherapy () {
+function ApometriaCosmica () {
     const [disabled, setDisabled] = useState(false);
 
     const check1 = useRef(false);
     const check2 = useRef(false);
     const check3 = useRef(false);
+    const check4 = useRef(false);
 
     function handleInputChange(e) {
         const condOne = check1.current.checked;
         const condTwo = check2.current.checked;
         const condThree = check3.current.checked;
+        const condFour = check4.current.checked;
 
-        if (condOne && condTwo && condThree) {
+        if (condOne && condTwo && condThree && condFour) {
             console.log("disabled");
             setDisabled((prevState) => !prevState);
         } else {
@@ -106,24 +120,33 @@ function UnconciousTherapy () {
     return (
         <>
         <Header>       
-            <h1>Unconcious Therapy</h1>
+            <h1>Apometria Cósmica</h1>
         </Header>
         <Main>
-            <h2>O que é Unconcious Therapy?</h2>
-            <p>O inconsciente é nada mais do que a soma de nossas memórias, vivências, sentimentos e emoções, é um depósito infinito de experiências de vida. Porém, muito além de arquivá-las, ele ainda as associa, num processo que foge à nossa compreensão. Nem tudo o que passamos na nossa vida é agradável. Algumas situações são tão terríveis que nos esquecemos delas, pois a simples lembrança já nos causa uma imensa dor.</p>
-            <p>Isso ocorre porque, como evita ao máximo o sofrimento, a nossa mente busca reprimir essas lembranças para nunca mais rememorarmos aquela situação tensa, funcionando como um instinto de autodefesa.</p>
-            <p>Infelizmente, contudo, nada é perfeito. Não eliminamos os traumas para sempre: eles ficam lá guardados, no inconsciente. Assim, diante de determinadas situações, podemos ter reações inesperadamente exaltadas, ou até violentas.</p>
-            <p>Não podemos mudar o passado. Isto é o que todos pensam e sofrem tanto por causa disto. Profundo engano, o passado pode ser ressignificado, e todos os males que ele nos causou podem ser transformados em força e crescimento para nossa alma.</p>
-            <p>Unconcious Therapy é uma técnica inovadora, com o objetivo de libertar-nos dessas questões e devolver-nos o controle sobre nossas ações, com base no poder da escolha e não mais como reféns de fatos passados.</p>
-            <p>Unconscious Therapy é uma técnica revolucionária que promove a eliminação definitiva dos traumas através da dissolução da informação gravada e fixada no neurônio. Esta poderosa técnica atua nos pontos de estrangulamento mental, chamados de nódulos energéticos.</p>
-            <p>Nós possuímos caminhos de informações neurais ligados ao inconsciente. Cada caminho é responsável por uma informação vital, e quando essa informação é negativa se transforma em nódulo energético que impede o trânsito normal das emoções trazendo consequências muito negativas ao ser humano.</p>
-            <p>O objetivo da Unconscious Therapy é mudar as Sinapses Neurais negativas e transformá-las em positivas, devolvendo assim a capacidade de conviver com fatos ou emoções sofridas no passado de forma leve e natural.</p>
-            <p>Esta Terapia nos traz a possibilidade de reescrever nossas histórias e nos libertar de medos, angústias, traumas, desafetos e tantas outras emoções reativas que tanto nos fazem sofrer.</p>
-            <p>Unconscious Therapy atua de forma eficaz e definitiva reformulando nossas sinapses neurais e nos conectando a outras realidades agora escolhidas por nós com nova consciência.</p>
+            <h2>O que é Apometria Cósmica?</h2>
+            <p>A Apometria Cósmica faz parte de uma nova proposta de terapia energética, através da Tecnologia do Espírito, que nos conecta com uma parte perdida ou esquecida em nós, permitindo que nos conheçamos melhor, fazendo-nos mais conscientes de nossos padrões de pensamentos, padrões de comportamentos e de emoções, o que nos abre para a possibilidade de uma real transformação e harmonização pessoal</p>
+            <p>A técnica visa o tratamento e a harmonização dos múltiplos aspectos que movem as energias humanas. Somos um agregado de vários níveis de consciência e esses níveis são também energia. Essas energias podem entrar em conflito, desequilíbrio e desarmonia.</p>
+            <p>A Apometria permite que nos conheçamos melhor, nos tornando conscientes de nossos padrões de pensamentos, emoções e comportamentos. Limpando e desbloqueando as energias densas que nos impedem de fluir com a vida.</p>
+            <p>Com a utilização da técnica, com a ajuda das egrégoras de Mestres Ascencionados, Comandos, Federação Galáctica, Índios Xamãs, Guardiões de Terra e os seus próprios mentores, ocorrerão vários processos que ajudarão no sentido de facilitar sua ascensão espiritual e liberação de crenças limitantes, bloqueios, emoções negativas, dentre outros.</p>
+            <h3>Alguns dos benefícios da Apometria Cósmica</h3>
+            <ListWrapper>
+                <List>
+                    <li>Dissociar estados de consciência negativos como medo, culpa, dor, mágoa, raiva, etc</li>
+                    <li>Limpeza Profunda no campo energético</li>
+                    <li>Alinhamentos dos chakras</li>
+                    <li>Quebra de contratos, pactos e acordos que impedem o seu processo evolutivo</li>
+                    <li>Libertação de crenças limitantes</li>
+                    <li>Limpeza de magia, feitiços e trabalhos</li>
+                    <li>Remoção de Implantes Negativos</li>
+                    <li>Liberação de energias nocivas</li>
+                    <li>Clareza na tomada de decisões</li>
+                    <li>Limpeza de Ambiente</li>
+                </List>
+            </ListWrapper>
             <BoxWrapper>
                 <h3>Agendamento</h3>
                 <Box>
-                    <p><b>Valor:</b> R$ 300,00</p>
+                    <p><b>Valor:</b> R$ 200,00</p>
                     <p><b>Formas de pagamento</b></p>
                     <p><b>PIX:</b> alineabp@gmail.com</p>
                     <p><b>TED/DOC:</b><br />
@@ -133,9 +156,17 @@ function UnconciousTherapy () {
                     Conta: 85967030-2</p>
                     <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta.</p>
                     <Icon icon={faEllipsis} />
-                    <p>A duração do atendimento de Unconcious Therapy varia entre 1h e 2h, então reserve este tempo no dia do atendimento.</p>
-                    <p><b>Importante:</b> Nessa técnica você tem que ficar deitada(o) a maior parte do tempo, com o computador/webcam, notebook ou celular mostrando seu rosto e tórax, então já se programe antecipadamente.</p>
-                    <p>O atendimento é online, pelo Google Meet. O link será enviado para o seu whatsapp alguns minutos antes da consulta.</p>
+                    <p><b>Informações sobre o atendimento:</b></p>
+                    <p>
+                        <List>
+                            <li>Deitar no horário combinado</li>
+                            <li>Reservar esse momento para você, certifique-se que não será interrompido</li>
+                            <li>Colocar um copo de água do lado da cama, beber ao final do atendimento</li>
+                        </List>
+                    </p>
+                    <p>O atendimento é realizado a distância, não é necessário realizar nenhum tipo de chamada (inclusive vídeo).</p>
+                    <p>O atendimento dura em torno de 1 hora.</p>
+                    <p>Depois é encaminhado um áudio, gravado com o que foi feito no atendimento</p>
                     <p>Para qualquer eventualidade, pode entrar em contato comigo pelo WhatsApp: (51) 98301-1098</p>
                     <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                     <p>Leia as informações e marque TODAS as alternativas:</p>
@@ -156,14 +187,20 @@ function UnconciousTherapy () {
                         <input ref={check3}
                             name="isGoing"
                             type="checkbox"
+                            onChange={() => handleInputChange()} /> Permito acesso aos meus Registros Akáshicos<br />
+                        </label>
+                        <label>
+                        <input ref={check4}
+                            name="isGoing"
+                            type="checkbox"
                             onChange={() => handleInputChange()} /> Estou ciente que só poderei cancelar meu atendimento até 24 horas antes da data e hora agendada.
                         </label>
                     </p>
-                    <ButtonLink className={`${!disabled ? "disabled" : ""}`} href="https://calendly.com/alynebastoss/unconcious-therapy" target="_blank">Quero Agendar!</ButtonLink>
+                    <ButtonLink className={`${!disabled ? "disabled" : ""}`} href="https://calendly.com/alynebastoss/apometria-cosmica" target="_blank">Quero Agendar!</ButtonLink>
                 </Box>
             </BoxWrapper>
         </Main></>
     );
 }
 
-export default UnconciousTherapy;
+export default ApometriaCosmica;

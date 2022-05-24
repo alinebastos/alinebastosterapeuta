@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import SiteLogo from './images/AlyneBastossWhite.png';
+import SiteLogo from './images/AlyneBastossWhite200.png';
 import SocialIcons from '../social-icons';
 
 const HeaderWrapper = styled.footer`
@@ -27,8 +27,8 @@ const Container = styled.div`
 `
 
 const Logo = styled.div`
-    height: 30px;
-    width: 250px;
+    height: 32px;
+    width: 200px;
     margin: 0 auto 30px;
 
     @media screen and (min-width: 768px) {
@@ -37,8 +37,8 @@ const Logo = styled.div`
 `
 
 const LogoImg = styled.img`
-    width: 250px;
-    height: 40px;
+    width: 200px;
+    height: 32px;
 `
 
 const Nav = styled.nav`
@@ -73,6 +73,17 @@ const Icons = styled(SocialIcons)`
     }
 `
 
+const Social = styled.div`
+    @media screen and (min-width: 768px) {
+        display: flex;
+
+        span {
+            font-weight: 600;
+            color: #fff;
+        }
+    }    
+`
+
 
 function Footer () {
     return (
@@ -91,13 +102,8 @@ function Footer () {
                             </MenuLink>
                         </li>
                         <li>
-                            <MenuLink to="/aura-master" alt="Link para a página Aura Master">
-                                Aura Master
-                            </MenuLink>
-                        </li>
-                        <li>
-                            <MenuLink to="/terapia-cosmica" alt="Link para a página Terapia Cósmica de Lótus">
-                                Terapia Cósmica de Lótus
+                            <MenuLink to="/apometria/cosmica" alt="Link para a página de Apometria Cósmica">
+                                Apometria Cósmica
                             </MenuLink>
                         </li>
                         <li>
@@ -106,8 +112,10 @@ function Footer () {
                             </MenuLink>
                         </li>
                     </ul>
-                </Nav>                
-                <Icons />                
+                </Nav>
+                <Social>         
+                    <span>Contatos: </span><Icons /> 
+                </Social>                 
             </Container>
         </HeaderWrapper>
     );

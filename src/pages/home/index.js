@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import Auramaster from './images/AuraMaster.png';
 import Unconscious from './images/Unconscious.png';
-import TerapiaCosmica from './images/TerapiaCosmica.png';
+import ApometriaCosmica from './images/ApometriaCosmica.jpeg'
 import styled from 'styled-components';
 
 const Header = styled.div`
@@ -52,8 +51,16 @@ const Therapy = styled.div`
     border-radius: 8px;
     padding: 0 20px 20px;
     justify-content: space-around;
-    width: 320px;
+    width: 100%;
     margin-bottom: 40px;
+
+    @media screen and (min-width: 420px) {
+        width:320px;
+    }
+
+    @media screen and (min-width: 900px) {
+        width:400px;
+    }
 `
 
 const TherapyTitle = styled.h3`
@@ -138,7 +145,7 @@ function Home () {
                         </List>
                     </ListWrapper>
                 <h3 style={{textAlign: 'center', margin: '30px 0'}}>Encontre aqui a Terapia mais adequada para você:</h3>
-                <Therapies>
+                <Therapies>{/* 
                     <Therapy>
                         <TherapyTitle>Aura Master</TherapyTitle>
                         <Logo src={Auramaster} alt="Aura Master Logo" />
@@ -150,6 +157,12 @@ function Home () {
                         <Logo src={TerapiaCosmica} alt="Terapia Cósmica Logo" />
                         <p>Quando nossos canais de energia ficam obstruídos, sobrevem a enfermidade. A finalidade da Terapia Cósmica de Lótus é reintegrar e harmonizar os corpos, desbloquear os canais de energia e promover o reabastecimento energético das células, órgãos, sistemas e chakras, equilibrando, assim, os corpos Físico,  Etérico, Mental, Emocional e Espiritual.</p>
                         <ButtonLink style={{ marginBottom: '20px'}} to="/terapia-cosmica">Saiba Mais!</ButtonLink>                        
+                    </Therapy> */}
+                    <Therapy>
+                        <TherapyTitle>Apometria Cósmica</TherapyTitle>
+                        <Logo src={ApometriaCosmica} alt="Apometria Cósmica Logo" />
+                        <p>A Apometria Cósmica permite que nos conheçamos melhor, nos tornando conscientes de nossos padrões de pensamentos, emoções e comportamentos, limpando e desbloqueando as energias densas que nos impedem de fluir com a vida. Com a utilização da técnica ocorrerão vários processos que ajudarão no sentido de facilitar sua ascensão espiritual e liberação de crenças limitantes, bloqueios, emoções negativas, dentre outros.</p>
+                        <ButtonLink style={{ marginBottom: '20px'}} to="/apometria-cosmica">Saiba Mais!</ButtonLink>
                     </Therapy>
                     <Therapy>
                         <TherapyTitle>Unconscious Therapy</TherapyTitle>

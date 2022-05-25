@@ -4,7 +4,7 @@ import Footer from './components/footer'
 import Home from './pages/home';
 import AuraMaster from './pages/aura-master';
 import TerapiaCosmica from './pages/terapia-cosmica';
-import UnconciousTherapy from './pages/unconcious-therapy';
+import UnconsciousTherapy from './pages/unconscious-therapy';
 import ApometriaCosmica from './pages/apometria-cosmica';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
           <Route path='/apometria-cosmica' element={<ApometriaCosmica />} />
           <Route path='/aura-master' element={<AuraMaster />} />
           <Route path='/terapia-cosmica' element={<TerapiaCosmica />} />
-          <Route path='/unconcious-therapy' element={<UnconciousTherapy />} />
+          <Route path='/unconscious-therapy' element={<UnconsciousTherapy />} />
         </Routes>
         <Footer />
       </Router>

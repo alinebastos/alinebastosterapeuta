@@ -112,8 +112,8 @@ function Footer () {
                             </MenuLink>
                         </li>
                         <li>
-                            <MenuLink to="/unconcious-therapy" alt="Link para a página Unconcious Therapy">
-                                Unconcious Therapy
+                            <MenuLink to="/unconscious-therapy" alt="Link para a página unconscious Therapy">
+                                unconscious Therapy
                             </MenuLink>
                         </li>
                     </ul>

@@ -168,7 +168,7 @@ function Home () {
                         <TherapyTitle>Unconscious Therapy</TherapyTitle>
                         <Logo src={Unconscious} alt="Unconscious Therapy Logo" />
                         <p>O objetivo da Unconscious Therapy é mudar as Sinapses Neurais negativas e transformá-las em positivas, devolvendo assim a capacidade de conviver com fatos ou emoções sofridas no passado de forma leve e natural. Esta Terapia nos traz a possibilidade de reescrever nossas histórias e nos libertar de medos, angústias, desafetos e tantas outras emoções reativas que tanto nos faz sofrer.</p>
-                        <ButtonLink style={{ marginBottom: '20px'}} to="/unconcious-therapy">Saiba Mais!</ButtonLink>
+                        <ButtonLink style={{ marginBottom: '20px'}} to="/unconscious-therapy">Saiba Mais!</ButtonLink>
                     </Therapy>
                 </Therapies>
             </Main>

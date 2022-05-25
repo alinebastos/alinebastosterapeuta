@@ -131,6 +131,7 @@ function UnconciousTherapy () {
                     Banco: Nubank - 0260<br />
                     Agência: 0001<br />
                     Conta: 85967030-2</p>
+                    <p><b>Cartão de Crédito: </b><a href="https://picpay.me/alynebastoss/300.0" target="_blank" rel="noreferrer" >Link para o PicPay</a></p>
                     <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o WhatsApp: <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">(51) 98301-1098</a>.</p>
                     <Icon icon={faEllipsis} />
                     <p>A duração do atendimento de Unconcious Therapy varia entre 1h e 2h, então reserve este tempo no dia do atendimento.</p>

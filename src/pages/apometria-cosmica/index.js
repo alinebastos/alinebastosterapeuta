@@ -146,7 +146,7 @@ function ApometriaCosmica () {
             <BoxWrapper>
                 <h3>Agendamento</h3>
                 <Box>
-                    <p><b>Valor:</b> R$ 200,00</p>
+                    <p><b>Valor:</b> R$ 153,00</p>
                     <p><b>Formas de pagamento</b></p>
                     <p><b>PIX:</b> alineabp@gmail.com</p>
                     <p><b>TED/DOC:</b><br />
@@ -154,6 +154,7 @@ function ApometriaCosmica () {
                     Banco: Nubank - 0260<br />
                     Agência: 0001<br />
                     Conta: 85967030-2</p>
+                    <p><b>Cartão de Crédito: </b><a href="https://picpay.me/alynebastoss/153.0" target="_blank" rel="noreferrer" >Link para o PicPay</a></p>
                     <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o WhatsApp: <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">(51) 98301-1098</a>.</p>
                     <Icon icon={faEllipsis} />
                     <p><b>Informações sobre o atendimento:</b></p>

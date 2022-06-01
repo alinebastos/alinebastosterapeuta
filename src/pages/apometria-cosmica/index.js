@@ -125,22 +125,20 @@ function ApometriaCosmica () {
         <Main>
             <h2>O que é Apometria Cósmica?</h2>
             <p>A Apometria Cósmica faz parte de uma nova proposta de terapia energética, através da Tecnologia do Espírito, que nos conecta com uma parte perdida ou esquecida em nós, permitindo que nos conheçamos melhor, fazendo-nos mais conscientes de nossos padrões de pensamentos, padrões de comportamentos e de emoções, o que nos abre para a possibilidade de uma real transformação e harmonização pessoal</p>
-            <p>A técnica visa o tratamento e a harmonização dos múltiplos aspectos que movem as energias humanas. Somos um agregado de vários níveis de consciência e esses níveis são também energia. Essas energias podem entrar em conflito, desequilíbrio e desarmonia.</p>
-            <p>A Apometria permite que nos conheçamos melhor, nos tornando conscientes de nossos padrões de pensamentos, emoções e comportamentos. Limpando e desbloqueando as energias densas que nos impedem de fluir com a vida.</p>
-            <p>Com a utilização da técnica, com a ajuda das egrégoras de Mestres Ascencionados, Comandos, Federação Galáctica, Índios Xamãs, Guardiões de Terra e os seus próprios mentores, ocorrerão vários processos que ajudarão no sentido de facilitar sua ascensão espiritual e liberação de crenças limitantes, bloqueios, emoções negativas, dentre outros.</p>
+            <p>Com a utilização da técnica, com a ajuda das egrégoras de Mestres Ascencionados, Comandos, Federação Galáctica, Índios Xamãs, Guardiões de Terra e os seus próprios mentores, ocorrerão vários processos que ajudarão no sentido de facilitar sua ascensão espiritual e liberação de crenças limitantes, bloqueios, emoções negativas, dentre outros.Com a utilização da técnica, com a ajuda das egrégoras de Mestres Ascencionados, Comandos, Federação Galáctica, Índios Xamãs, Guardiões da Terra e os seus próprios mentores, ocorrerão vários processos que ajudarão no sentido de facilitar sua ascensão espiritual e liberação de crenças limitantes, bloqueios, emoções negativas, dentre outros.</p>
             <h3>Alguns dos benefícios da Apometria Cósmica</h3>
             <ListWrapper>
-                <List>
-                    <li>Dissociar estados de consciência negativos como medo, culpa, dor, mágoa, raiva, etc</li>
-                    <li>Limpeza Profunda no campo energético</li>
+                <List>                   
+                    <li>Limpeza profunda no campo energético</li>
                     <li>Alinhamentos dos chakras</li>
                     <li>Quebra de contratos, pactos e acordos que impedem o seu processo evolutivo</li>
+                    <li>Remoção ou harmonização de registros akáshicos negativos</li>
                     <li>Libertação de crenças limitantes</li>
-                    <li>Limpeza de magia, feitiços e trabalhos</li>
+                    <li>Limpeza de magias, feitiçarias e trabalhos</li>
                     <li>Remoção de Implantes Negativos</li>
                     <li>Liberação de energias nocivas</li>
-                    <li>Clareza na tomada de decisões</li>
-                    <li>Limpeza de Ambiente</li>
+                    <li>Limpeza de ambiente</li>
+                    <li>Proteção espiritual</li>
                 </List>
             </ListWrapper>
             <BoxWrapper>

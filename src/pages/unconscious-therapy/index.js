@@ -110,11 +110,6 @@ function UnconsciousTherapy () {
         </Header>
         <Main>
             <h2>O que é Unconscious Therapy?</h2>
-            <p>O inconsciente é nada mais do que a soma de nossas memórias, vivências, sentimentos e emoções, é um depósito infinito de experiências de vida. Porém, muito além de arquivá-las, ele ainda as associa, num processo que foge à nossa compreensão. Nem tudo o que passamos na nossa vida é agradável. Algumas situações são tão terríveis que nos esquecemos delas, pois a simples lembrança já nos causa uma imensa dor.</p>
-            <p>Isso ocorre porque, como evita ao máximo o sofrimento, a nossa mente busca reprimir essas lembranças para nunca mais rememorarmos aquela situação tensa, funcionando como um instinto de autodefesa.</p>
-            <p>Infelizmente, contudo, nada é perfeito. Não eliminamos os traumas para sempre: eles ficam lá guardados, no inconsciente. Assim, diante de determinadas situações, podemos ter reações inesperadamente exaltadas, ou até violentas.</p>
-            <p>Não podemos mudar o passado. Isto é o que todos pensam e sofrem tanto por causa disto. Profundo engano, o passado pode ser ressignificado, e todos os males que ele nos causou podem ser transformados em força e crescimento para nossa alma.</p>
-            <p>Unconscious Therapy é uma técnica inovadora, com o objetivo de libertar-nos dessas questões e devolver-nos o controle sobre nossas ações, com base no poder da escolha e não mais como reféns de fatos passados.</p>
             <p>Unconscious Therapy é uma técnica revolucionária que promove a eliminação definitiva dos traumas através da dissolução da informação gravada e fixada no neurônio. Esta poderosa técnica atua nos pontos de estrangulamento mental, chamados de nódulos energéticos.</p>
             <p>Nós possuímos caminhos de informações neurais ligados ao inconsciente. Cada caminho é responsável por uma informação vital, e quando essa informação é negativa se transforma em nódulo energético que impede o trânsito normal das emoções trazendo consequências muito negativas ao ser humano.</p>
             <p>O objetivo da Unconscious Therapy é mudar as Sinapses Neurais negativas e transformá-las em positivas, devolvendo assim a capacidade de conviver com fatos ou emoções sofridas no passado de forma leve e natural.</p>

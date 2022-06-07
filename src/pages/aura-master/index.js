@@ -232,7 +232,7 @@ function AuraMaster () {
                                 onChange={() => handleInputChange()} /> Estou ciente que só poderei cancelar meu atendimento até 24 horas antes da data e hora agendada.
                             </label>
                         </p>
-                        <ButtonLink className={`${!disabled ? "disabled" : ""}`} href="https://calendly.com/alynebastoss/aura-master" target="_blank">Quero Agendar!</ButtonLink>
+                        <ButtonLink className={`${!disabled ? "disabled" : ""}`} href="https://calendly.com/alynebastoss/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </Box>
                 </BoxWrapper>
             </Main>

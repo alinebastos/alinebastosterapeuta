@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import SiteLogo from './images/AlyneBastossWhite200.png';
+import SiteLogo from './images/AlineBastosBranco.png';
 import SocialIcons from '../social-icons';
 
 const HeaderWrapper = styled.footer`
@@ -27,8 +27,8 @@ const Container = styled.div`
 `
 
 const Logo = styled.div`
-    height: 32px;
-    width: 200px;
+    height: 36px;
+    width: 250px;
     margin: 0 auto 30px;
 
     @media screen and (min-width: 768px) {
@@ -37,8 +37,8 @@ const Logo = styled.div`
 `
 
 const LogoImg = styled.img`
-    width: 200px;
-    height: 32px;
+    width: 250px;
+    height: 36px;
 `
 
 const Nav = styled.nav`
@@ -85,6 +85,7 @@ const Social = styled.div`
             display: block;
             font-weight: 600;
             color: #fff;
+            margin-left: 50px;
         }
     }    
 `

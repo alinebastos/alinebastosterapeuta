@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import SiteLogo from './images/AlyneBastoss200.png';
+import SiteLogo from './images/AlineBastosPreto.png';
 import Butterfly from './images/Butterfly.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
@@ -38,8 +38,8 @@ const Container = styled.div`
 
 const Logo = styled.div`
     order: 2;
-    width: 200px;
-    height: 32px;
+    width: 250px;
+    height: 36px;
 
     @media screen and (min-width: 1024px) {
         order: 1;
@@ -47,8 +47,8 @@ const Logo = styled.div`
 `
 
 const LogoImg = styled.img`    
-    width: 200px;
-    height: 32px;
+    width: 250px;
+    height: 36px;
 `
 
 const NavToogle = styled.button`
@@ -194,6 +194,7 @@ const Social = styled.div`
         span {
             display: block;
             font-weight: 600;
+            margin-left: 50px;
         }
     }    
 `
@@ -210,7 +211,7 @@ function Header () {
             <Container>
                 <Logo>
                     <NavLink to="/">
-                        <LogoImg src={SiteLogo} alt="Alyne Bastoss" />
+                        <LogoImg src={SiteLogo} alt="Aline Bastos" />
                     </NavLink>
                 </Logo>
                 <NavWrapper>

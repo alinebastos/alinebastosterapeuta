@@ -7,7 +7,7 @@ const Header = styled.div`
     max-width: 1920px;
     height: 500px;
     margin: 0 auto;
-    background-image: url('happiness20.jpg');
+    background-image: url('happiness3.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,12 +160,12 @@ function ApometriaCosmica () {
                         <List>
                             <li>Deitar no horário combinado</li>
                             <li>Reservar esse momento para você, certifique-se que não será interrompido</li>
-                            <li>Colocar um copo de água do lado da cama, beber ao final do atendimento</li>
+                            <li>Colocar um copo de água do lado, beber ao final do atendimento</li>
                         </List>
                     </p>
                     <p>O atendimento é realizado a distância, não é necessário realizar nenhum tipo de chamada (inclusive vídeo).</p>
                     <p>O atendimento dura em torno de 1 hora.</p>
-                    <p>Depois é encaminhado um áudio, gravado com o que foi feito no atendimento</p>
+                    <p>Depois é encaminhado um áudio gravado com o que foi feito no atendimento</p>
                     <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                     <p>Leia as informações e marque TODAS as alternativas:</p>
                     <p>
@@ -194,7 +194,7 @@ function ApometriaCosmica () {
                             onChange={() => handleInputChange()} /> Estou ciente que só poderei cancelar meu atendimento até 24 horas antes da data e hora agendada.
                         </label>
                     </p>
-                    <ButtonLink className={`${!disabled ? "disabled" : ""}`} href="https://calendly.com/alynebastoss/agenda" target="_blank">Quero Agendar!</ButtonLink>
+                    <ButtonLink className={`${!disabled ? "disabled" : ""}`} href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                 </Box>
             </BoxWrapper>
         </Main></>

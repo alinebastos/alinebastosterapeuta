@@ -1,7 +1,5 @@
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import Unconscious from './images/Unconscious.png';
-import ApometriaCosmica from './images/ApometriaCosmica.jpeg'
 import styled from 'styled-components';
 
 const Header = styled.div`
@@ -34,6 +32,23 @@ const Main = styled.main`
     max-width: 1024px;
     padding: 0 10px;
     margin: 0 auto;
+`
+
+const ListWrapper = styled.div`
+    margin-bottom: 40px;
+
+    @media screen and (min-width: 767px) {
+        display: flex;
+        justify-content: space-around;
+    }
+`
+
+const List = styled.ul`
+    li {
+        padding-left: 28px;
+        background: url('check.png') no-repeat center left;
+        font-size: 15px;
+    }
 `
 
 const Therapies = styled.div`
@@ -69,29 +84,6 @@ const TherapyTitle = styled.h3`
     text-align: center;
 `
 
-const Logo = styled.img`
-    width: 100px;
-    height: 100px;
-    margin-bottom: 20px;
-`
-
-const ListWrapper = styled.div`
-    margin-bottom: 40px;
-
-    @media screen and (min-width: 767px) {
-        display: flex;
-        justify-content: space-around;
-    }
-`
-
-const List = styled.ul`
-    li {
-        padding-left: 28px;
-        background: url('check.png') no-repeat center left;
-        font-size: 15px;
-    }
-`
-
 const ButtonLink = styled(NavLink)`
     display: block;
     width:200px;
@@ -120,6 +112,7 @@ function Home () {
             </Header>
             <Main>
                 <h2>Terapias: O que são e para que servem?</h2>
+                <p><b>A função do Terapeuta é servir de <b>canal</b> e <b>veículo</b> às energias de luz, através da disponibilização da sua estrutura física, energética e espiritual, ancorando assim, as frequências de cura que o consulente necessita receber.</b></p>
                 <p>Pensamentos, situações e emoções vividas de forma negativa e descontrolada como medo, raiva, culpa, traumas e outros, vão se aderindo ao campo sutil vibracional e formam bloqueios energéticos. Esses bloqueios podem provocar males como ansiedade, estresse, dor física, traumas, doenças e outros desequilíbrios.</p>
                 <p>Ao fazer terapia, você pode liberar esses bloqueios, eliminar aspectos negativos de sua vida diária, e atrair aspectos positivos que lhe proporcionarão um nível mais elevado de bem-estar físico, emocional, energético, espiritual e mental.</p>
                 <p>Aqui você encontra o acolhimento necessário para tratar das suas emoções e dores com amorosidade e livre de julgamentos.</p>
@@ -151,22 +144,14 @@ function Home () {
                         <Logo src={Auramaster} alt="Aura Master Logo" />
                         <p>O Aura Master é um sistema de tratamento da aura (campo de energia) que promove a modificação de crenças limitantes, limpeza de problemas, traumas, fobias e conflitos, criação de metas e outras questões do inconsciente que impactam diretamente sua vida pessoal ou profissional. Tudo isso de forma simples, rápida e prática!</p>
                         <ButtonLink style={{ marginBottom: '20px'}} to="/aura-master">Saiba Mais!</ButtonLink>
-                    </Therapy>
-                    <Therapy>
-                        <TherapyTitle>Terapia Cósmica de Lótus</TherapyTitle>
-                        <Logo src={TerapiaCosmica} alt="Terapia Cósmica Logo" />
-                        <p>Quando nossos canais de energia ficam obstruídos, sobrevem a enfermidade. A finalidade da Terapia Cósmica de Lótus é reintegrar e harmonizar os corpos, desbloquear os canais de energia e promover o reabastecimento energético das células, órgãos, sistemas e chakras, equilibrando, assim, os corpos Físico,  Etérico, Mental, Emocional e Espiritual.</p>
-                        <ButtonLink style={{ marginBottom: '20px'}} to="/terapia-cosmica">Saiba Mais!</ButtonLink>                        
                     </Therapy> */}
                     <Therapy>
                         <TherapyTitle>Apometria Cósmica</TherapyTitle>
-                        <Logo src={ApometriaCosmica} alt="Apometria Cósmica Logo" />
                         <p>A Apometria Cósmica permite que nos conheçamos melhor, nos tornando conscientes de nossos padrões de pensamentos, emoções e comportamentos, limpando e desbloqueando as energias densas que nos impedem de fluir com a vida. Com a utilização da técnica ocorrerão vários processos que ajudarão no sentido de facilitar sua ascensão espiritual e liberação de crenças limitantes, bloqueios, emoções negativas, dentre outros.</p>
                         <ButtonLink style={{ marginBottom: '20px'}} to="/apometria-cosmica">Saiba Mais!</ButtonLink>
                     </Therapy>
                     <Therapy>
                         <TherapyTitle>Unconscious Therapy</TherapyTitle>
-                        <Logo src={Unconscious} alt="Unconscious Therapy Logo" />
                         <p>O objetivo da Unconscious Therapy é mudar as Sinapses Neurais negativas e transformá-las em positivas, devolvendo assim a capacidade de conviver com fatos ou emoções sofridas no passado de forma leve e natural. Esta Terapia nos traz a possibilidade de reescrever nossas histórias e nos libertar de medos, angústias, desafetos e tantas outras emoções reativas que tanto nos faz sofrer.</p>
                         <ButtonLink style={{ marginBottom: '20px'}} to="/unconscious-therapy">Saiba Mais!</ButtonLink>
                     </Therapy>

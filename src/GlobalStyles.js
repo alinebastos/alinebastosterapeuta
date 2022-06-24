@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
     }
     h1 {
         color: #fff;
-        font-size: 50px;
+        font-size: 40px;
         text-shadow: 0px 0px 4px rgba(0,0,0,0.7);
         line-height: 70px;
         text-align: center;

@@ -1,6 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import SiteLogo from './images/AlineBastosBranco.png';
+import SiteLogo from './images/AlineBastosWhite.png';
 import SocialIcons from '../social-icons';
 
 const HeaderWrapper = styled.footer`
@@ -27,7 +27,7 @@ const Container = styled.div`
 `
 
 const Logo = styled.div`
-    height: 36px;
+    height: 40px;
     width: 250px;
     margin: 0 auto 30px;
 
@@ -38,7 +38,7 @@ const Logo = styled.div`
 
 const LogoImg = styled.img`
     width: 250px;
-    height: 36px;
+    height: 40px;
 `
 
 const Nav = styled.nav`
@@ -85,7 +85,7 @@ const Social = styled.div`
             display: block;
             font-weight: 600;
             color: #fff;
-            margin-left: 50px;
+            margin: 0 20px 0 50px;
         }
     }    
 `
@@ -97,7 +97,7 @@ function Footer () {
             <Container>
                 <Logo>
                     <NavLink to="/">
-                        <LogoImg src={SiteLogo} alt="Alyne Bastoss" />
+                        <LogoImg src={SiteLogo} alt="aline bastos" />
                     </NavLink>
                 </Logo>
                 <Nav>
@@ -113,8 +113,8 @@ function Footer () {
                             </MenuLink>
                         </li>
                         <li>
-                            <MenuLink to="/unconscious-therapy" alt="Link para a página unconscious Therapy">
-                                unconscious Therapy
+                            <MenuLink to="/cura-arcturiana" alt="Link para a página Cura Multidimensional Arcturiana">
+                                Cura Multidimensional Arcturiana
                             </MenuLink>
                         </li>
                     </ul>

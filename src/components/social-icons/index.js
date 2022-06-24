@@ -5,24 +5,11 @@ import { faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const IconLink = styled.a`
     margin-left: 10px;
+    height: 20px;
             
     &:first-of-type {        
         margin-left: 0;
     }
-    
-    @media screen and (min-width: 400px) {
-        margin-left: 20px;
-                
-        &:first-of-type {        
-            margin-left: 0;
-        }
-    }    
-    
-    @media screen and (min-width: 768px) {
-        &:first-of-type {        
-            margin-left: 20px;
-        }
-    }    
 `
 
 const Icon = styled(FontAwesomeIcon)`

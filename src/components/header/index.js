@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import SiteLogo from './images/AlineBastosPreto.png';
+import SiteLogo from './images/AlineBastosBlack.png';
 import Butterfly from './images/Butterfly.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
@@ -39,7 +39,7 @@ const Container = styled.div`
 const Logo = styled.div`
     order: 2;
     width: 250px;
-    height: 36px;
+    height: 40px;
 
     @media screen and (min-width: 1024px) {
         order: 1;
@@ -48,7 +48,7 @@ const Logo = styled.div`
 
 const LogoImg = styled.img`    
     width: 250px;
-    height: 36px;
+    height: 40px;
 `
 
 const NavToogle = styled.button`
@@ -91,7 +91,7 @@ const Nav = styled.nav`
     @media screen and (max-width: 1024px) {
         &.show {
             display: block;
-            min-width: 320px;
+            min-width: 340px;
             position: absolute;
             top: 50px;
             left: -10px;
@@ -194,7 +194,7 @@ const Social = styled.div`
         span {
             display: block;
             font-weight: 600;
-            margin-left: 50px;
+            margin: 0 20px 0 50px;
         }
     }    
 `
@@ -221,19 +221,19 @@ function Header () {
                             <li>
                                 <MenuLink to="/" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a Home">
                                     Home
-                                    <img src={Butterfly} alt="Alyne Bastoss" />
+                                    <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
                             </li>
                             <li>
                                 <MenuLink to="/apometria-cosmica" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página de Apometria Cósmica">
                                     Apometria Cósmica
-                                    <img src={Butterfly} alt="Alyne Bastoss" />
+                                    <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
                             </li>
                             <li>
-                                <MenuLink to="/unconscious-therapy" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página unconscious Therapy">
-                                    unconscious Therapy
-                                    <img src={Butterfly} alt="Alyne Bastoss" />
+                                <MenuLink to="/cura-arcturiana" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página Cura Multidimensional Arcturiana">
+                                    Cura Multidimensional Arcturiana
+                                    <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
                             </li>
                         </ul>

@@ -7,7 +7,7 @@ const Header = styled.div`
     max-width: 1920px;
     height: 300px;
     margin: 0 auto;
-    background-image: url('happiness3.jpg');
+    background-image: url('happiness10.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -95,7 +95,7 @@ const ButtonLink = styled.a`
     }
 `
 
-function ApometriaCosmica () {
+function CuraArcturiana () {
     const [disabled, setDisabled] = useState(false);
 
     const check1 = useRef(false);
@@ -124,25 +124,35 @@ function ApometriaCosmica () {
     return (
         <>
         <Header>       
-            <h1>Apometria Cósmica</h1>
+            <h1>Cura Multidimensional Arcturiana</h1>
         </Header>
         <Main>
-            <h2>O que é Apometria Cósmica?</h2>
-            <p>A Apometria Cósmica faz parte de uma nova proposta de terapia energética, através da Tecnologia do Espírito, que nos conecta com uma parte perdida ou esquecida em nós, permitindo que nos conheçamos melhor, fazendo-nos mais conscientes de nossos padrões de pensamentos, padrões de comportamentos e de emoções, o que nos abre para a possibilidade de uma real transformação e harmonização pessoal</p>
-            <p>Com a utilização da técnica, com a ajuda das egrégoras de Mestres Ascencionados, Comandos, Federação Galáctica, Índios Xamãs, Guardiões de Terra e os seus próprios mentores, ocorrerão vários processos que ajudarão no sentido de facilitar sua ascensão espiritual e liberação de crenças limitantes, bloqueios, emoções negativas, dentre outros.</p>
-            <h3>Alguns dos benefícios da Apometria Cósmica</h3>
+        <h2>Quem são os Arcturianos?</h2>
+
+        <p>Os Arcturianos são uma civilização de quinta dimensão. Sua energia ancora e trabalha na cura emocional, mental e espiritual para a humanidade. Eles trabalham com os seres confederados, ajudando os humanos a se sintonizar com as frequências da 5ª dimensão no planeta Terra.</p>
+
+
+        <h2>O que é a Cura Multidimensional Arcturiana?</h2>
+
+        <p>A Cura Multidimensional Arcturiana é uma terapia unificada no amor incondicional. Este Sistema trata de curar os problemas da alma, mente, corpos e emoções.</p>
+
+        <p>Todos possuem problemas nessas áreas, que surgem diariamente na vida, criando tristeza, desconforto, bloqueios, angústia e depressão. Toda e qualquer infelicidade e dor, instalam-se literalmente na nossa vida (eventualmente somatizando dores no nosso corpo físico) impedindo a nossa realização total como seres divinos que somos e criando os mais diversos obstáculos que nos impedem de andar com a vida para a frente.</p>
+
+        <h3>As potencialidades da Cura Multidimensional Arcturiana são ilimitadas, aqui estão alguns exemplos:</h3>
             <ListWrapper>
-                <List>                   
-                    <li>Limpeza profunda no campo energético;</li>
-                    <li>Alinhamentos dos chakras;</li>
-                    <li>Quebra de contratos, pactos e acordos que impedem o seu processo evolutivo;</li>
-                    <li>Remoção ou harmonização de registros akáshicos negativos;</li>
-                    <li>Libertação de crenças limitantes;</li>
-                    <li>Limpeza de magias, feitiçarias e trabalhos;</li>
-                    <li>Remoção de Implantes Negativos;</li>
-                    <li>Liberação de energias nocivas;</li>
-                    <li>Limpeza de ambiente;</li>
-                    <li>Proteção espiritual.</li>
+                <List>
+                    <li>Limpeza e Equilíbrio Energético;</li>
+                    <li>Limpeza e Cura Kármica</li>
+                    <li>Reequilíbrio das energias masculina e feminina;</li>
+                    <li>Rescisão e corte de contratos e ligações energéticas;</li>
+                    <li>Resgate do Poder Pessoal;</li>
+                    <li>Limpeza e Cura de Vidas Passadas;</li>
+                    <li>Limpeza, Resgate e Integração de Corpos Emocionais, Espirituais, etc;</li>
+                    <li>Resgate e Cura da Criança Interior;</li>
+                    <li>Limpezas de Magias, Feitiçarias e Trabalhos;</li>
+                    <li>Purificação de DNA;</li>
+                    <li>Reconexão com o Eu Superior;</li>
+                    <li>Conexão à Rede Cristalina da Nova Terra.</li>
                 </List>
             </ListWrapper>
             <BoxWrapper>
@@ -186,12 +196,6 @@ function ApometriaCosmica () {
                             onChange={() => handleInputChange()} /> Estou aberto e permito que meu campo seja acessado, a fim de que as curas necessárias aconteçam<br />
                         </label>
                         <label>
-                        <input ref={check3}
-                            name="isGoing"
-                            type="checkbox"
-                            onChange={() => handleInputChange()} /> Permito acesso aos meus Registros Akáshicos<br />
-                        </label>
-                        <label>
                         <input ref={check4}
                             name="isGoing"
                             type="checkbox"
@@ -205,4 +209,4 @@ function ApometriaCosmica () {
     );
 }
 
-export default ApometriaCosmica;
+export default CuraArcturiana;

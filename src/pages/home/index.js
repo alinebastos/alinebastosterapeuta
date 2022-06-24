@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Header = styled.div`
     max-width: 1920px;
-    height: 500px;
+    height: 300px;
     margin: 0 auto 80px;
     background-image: url('happiness13.jpg');
     background-position: center top;
@@ -25,6 +25,10 @@ const Header = styled.div`
         top: 0;
         width: 100%;
         z-index: -1;
+    }
+
+    @media screen and (min-width: 767px) {
+        height: 500px;
     }
 `
 
@@ -138,22 +142,16 @@ function Home () {
                         </List>
                     </ListWrapper>
                 <h3 style={{textAlign: 'center', margin: '30px 0'}}>Encontre aqui a Terapia mais adequada para você:</h3>
-                <Therapies>{/* 
-                    <Therapy>
-                        <TherapyTitle>Aura Master</TherapyTitle>
-                        <Logo src={Auramaster} alt="Aura Master Logo" />
-                        <p>O Aura Master é um sistema de tratamento da aura (campo de energia) que promove a modificação de crenças limitantes, limpeza de problemas, traumas, fobias e conflitos, criação de metas e outras questões do inconsciente que impactam diretamente sua vida pessoal ou profissional. Tudo isso de forma simples, rápida e prática!</p>
-                        <ButtonLink style={{ marginBottom: '20px'}} to="/aura-master">Saiba Mais!</ButtonLink>
-                    </Therapy> */}
+                <Therapies>
                     <Therapy>
                         <TherapyTitle>Apometria Cósmica</TherapyTitle>
-                        <p>A Apometria Cósmica permite que nos conheçamos melhor, nos tornando conscientes de nossos padrões de pensamentos, emoções e comportamentos, limpando e desbloqueando as energias densas que nos impedem de fluir com a vida. Com a utilização da técnica ocorrerão vários processos que ajudarão no sentido de facilitar sua ascensão espiritual e liberação de crenças limitantes, bloqueios, emoções negativas, dentre outros.</p>
+                        <p>A Apometria Cósmica permite que nos conheçamos melhor, nos tornando conscientes de nossos padrões de pensamentos, emoções e comportamentos, limpando e desbloqueando as energias densas que nos impedem de fluir com a vida. Com a utilização da técnica ocorrerão vários processos que ajudarão no sentido de facilitar sua ascensão espiritual e liberação de crenças limitantes, bloqueios, emoções negativas, dentre outros fatores que acabam por bloquear certos aspectos da sua vida.</p>
                         <ButtonLink style={{ marginBottom: '20px'}} to="/apometria-cosmica">Saiba Mais!</ButtonLink>
                     </Therapy>
                     <Therapy>
-                        <TherapyTitle>Unconscious Therapy</TherapyTitle>
-                        <p>O objetivo da Unconscious Therapy é mudar as Sinapses Neurais negativas e transformá-las em positivas, devolvendo assim a capacidade de conviver com fatos ou emoções sofridas no passado de forma leve e natural. Esta Terapia nos traz a possibilidade de reescrever nossas histórias e nos libertar de medos, angústias, desafetos e tantas outras emoções reativas que tanto nos faz sofrer.</p>
-                        <ButtonLink style={{ marginBottom: '20px'}} to="/unconscious-therapy">Saiba Mais!</ButtonLink>
+                        <TherapyTitle>Cura Multidimensional Arcturiana</TherapyTitle>
+                        <p>A Cura Multidimensional Arcturiana é uma jornada para a cura interior e autoconhecimento. É uma terapia energética que utiliza a frequência vibracional de símbolos da geometria sagrada. Essas frequências trabalham nos campos físico, mental, emocional e espiritual, através do coração. O propósito do tratamento é elevar o seu nível vibracional. Os símbolos atuam no nível da alma e dos corpos extra físicos indo até a raiz kármica e causal, harmonizando as vibrações que vão se integrar e refletir na sua vida atual.</p>
+                        <ButtonLink style={{ marginBottom: '20px'}} to="/cura-arcturiana">Saiba Mais!</ButtonLink>
                     </Therapy>
                 </Therapies>
             </Main>

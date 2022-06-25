@@ -144,7 +144,7 @@ function Home () {
                 <h3 style={{textAlign: 'center', margin: '30px 0'}}>Encontre aqui a Terapia mais adequada para você:</h3>
                 <Therapies>
                     <Therapy>
-                        <TherapyTitle>Apometria Cósmica</TherapyTitle>
+                        <TherapyTitle>Apometria Cósmica e Dinâmica</TherapyTitle>
                         <p>A Apometria Cósmica permite que nos conheçamos melhor, nos tornando conscientes de nossos padrões de pensamentos, emoções e comportamentos, limpando e desbloqueando as energias densas que nos impedem de fluir com a vida. Com a utilização da técnica ocorrerão vários processos que ajudarão no sentido de facilitar sua ascensão espiritual e liberação de crenças limitantes, bloqueios, emoções negativas, dentre outros fatores que acabam por bloquear certos aspectos da sua vida.</p>
                         <ButtonLink style={{ marginBottom: '20px'}} to="/apometria-cosmica">Saiba Mais!</ButtonLink>
                     </Therapy>

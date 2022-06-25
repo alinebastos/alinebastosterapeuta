@@ -41,7 +41,7 @@ const Logo = styled.div`
     width: 250px;
     height: 40px;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1280px) {
         order: 1;
     }
 `
@@ -65,7 +65,7 @@ const NavToogle = styled.button`
     align-items: center;
     cursor: pointer;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1280px) {
         display: none;
     }
 `
@@ -79,7 +79,7 @@ const NavWrapper = styled.div`
     order: 1;
     position:relative;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1280px) {
         order: 2;
     }
 `
@@ -88,7 +88,7 @@ const Nav = styled.nav`
     order: 1;
     display: none;
 
-    @media screen and (max-width: 1024px) {
+    @media screen and (max-width: 1279px) {
         &.show {
             display: block;
             min-width: 340px;
@@ -130,7 +130,7 @@ const Nav = styled.nav`
         }
     }
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1280px) {
         height: 60px;
         position: relative;
         z-index: 7;
@@ -188,7 +188,7 @@ const Social = styled.div`
         display: none;
     }
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1280px) {
         display: flex;
 
         span {
@@ -226,7 +226,7 @@ function Header () {
                             </li>
                             <li>
                                 <MenuLink to="/apometria-cosmica" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página de Apometria Cósmica">
-                                    Apometria Cósmica
+                                    Apometria Cósmica e Dinâmica
                                     <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
                             </li>

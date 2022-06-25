@@ -1,6 +1,11 @@
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
+import Depoimento from './images/Depoimento.png';
+import Depoimento2 from './images/Depoimento2.png';
+import Depoimento3 from './images/Depoimento3.png';
 
 const Header = styled.div`
     max-width: 1920px;
@@ -76,10 +81,6 @@ const Therapy = styled.div`
     @media screen and (min-width: 420px) {
         width:320px;
     }
-
-    @media screen and (min-width: 900px) {
-        width:400px;
-    }
 `
 
 const TherapyTitle = styled.h3`
@@ -101,6 +102,37 @@ const ButtonLink = styled(NavLink)`
     &:hover {
         color: #fff;
         background-color: #21a02a;
+    }
+`
+
+const Icon = styled(FontAwesomeIcon)`
+    font-size: 40px;
+    margin: 10px auto 30px;
+    display: block;
+    color: #2acb35;
+`
+
+const Testimonies = styled.div`
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    flex-wrap: wrap;
+`
+
+const Testimony = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+    font-weight: 600;
+
+    img {
+        width: 100%;
+    }
+
+    @media screen and (min-width: 540px) {
+        width: 500px;
     }
 `
 
@@ -144,6 +176,11 @@ function Home () {
                 <h3 style={{textAlign: 'center', margin: '30px 0'}}>Encontre aqui a Terapia mais adequada para você:</h3>
                 <Therapies>
                     <Therapy>
+                        <TherapyTitle>Aura Master</TherapyTitle>
+                        <p>O Aura Master é um sistema de tratamento da aura (campo de energia) que promove a modificação de crenças limitantes, limpeza de problemas, traumas, fobias e conflitos, criação de metas e outras questões do inconsciente que impactam diretamente sua vida pessoal ou profissional. É uma técnica terapêutica de ação rápida, que ativa os poderes ocultos de autocura, realizando mudanças no seu estado emocional, mental e espiritual. Tudo isso de forma simples, rápida e prática!</p>
+                        <ButtonLink style={{ marginBottom: '20px'}} to="/aura-master">Saiba Mais!</ButtonLink>
+                    </Therapy>
+                    <Therapy>
                         <TherapyTitle>Apometria Cósmica e Dinâmica</TherapyTitle>
                         <p>A Apometria Cósmica permite que nos conheçamos melhor, nos tornando conscientes de nossos padrões de pensamentos, emoções e comportamentos, limpando e desbloqueando as energias densas que nos impedem de fluir com a vida. Com a utilização da técnica ocorrerão vários processos que ajudarão no sentido de facilitar sua ascensão espiritual e liberação de crenças limitantes, bloqueios, emoções negativas, dentre outros fatores que acabam por bloquear certos aspectos da sua vida.</p>
                         <ButtonLink style={{ marginBottom: '20px'}} to="/apometria-cosmica">Saiba Mais!</ButtonLink>
@@ -153,8 +190,24 @@ function Home () {
                         <p>A Cura Multidimensional Arcturiana é uma jornada para a cura interior e autoconhecimento. É uma terapia energética que utiliza a frequência vibracional de símbolos da geometria sagrada. Essas frequências trabalham nos campos físico, mental, emocional e espiritual, através do coração. O propósito do tratamento é elevar o seu nível vibracional. Os símbolos atuam no nível da alma e dos corpos extra físicos indo até a raiz kármica e causal, harmonizando as vibrações que vão se integrar e refletir na sua vida atual.</p>
                         <ButtonLink style={{ marginBottom: '20px'}} to="/cura-arcturiana">Saiba Mais!</ButtonLink>
                     </Therapy>
-                </Therapies>
+                </Therapies>                
+                <Icon icon={faEllipsis} />
             </Main>
+            <h2>Depoimentos de alguns clientes:</h2>
+            <Testimonies>
+                <Testimony>
+                    <p>19 de Junho de 2022</p>
+                    <img src={Depoimento3} alt="Depoimento" />
+                </Testimony>
+                <Testimony>
+                    <p>11 de Junho de 2022</p>
+                    <img src={Depoimento2} alt="Depoimento" />
+                </Testimony>
+                <Testimony>
+                    <p>31 de Maio de 2022</p>
+                    <img src={Depoimento} alt="Depoimento" />
+                </Testimony>
+            </Testimonies>
         </>
     );
 }

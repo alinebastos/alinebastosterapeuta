@@ -157,7 +157,7 @@ const MenuLink = styled(NavLink)`
     color: #303030;
     text-transform: uppercase;
     line-height: 20px;
-    padding: 0 30px;
+    padding: 0 20px;
 
     &.active {
         color: #2acb35;
@@ -166,7 +166,7 @@ const MenuLink = styled(NavLink)`
     img {
         opacity: 0;   
         position: absolute;
-        right: 5px;
+        right: -2px;
         top: 2px;
         width: 30px;
         height: auto;
@@ -188,7 +188,7 @@ const Social = styled.div`
         display: none;
     }
 
-    @media screen and (min-width: 1280px) {
+    @media screen and (min-width: 1400px) {
         display: flex;
 
         span {
@@ -221,6 +221,12 @@ function Header () {
                             <li>
                                 <MenuLink to="/" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a Home">
                                     Home
+                                    <img src={Butterfly} alt="Aline Bastoss" />
+                                </MenuLink>
+                            </li>
+                            <li>
+                                <MenuLink to="/aura-master" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página de Aura Master">
+                                    Aura Master
                                     <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
                             </li>

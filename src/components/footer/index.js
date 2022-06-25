@@ -108,6 +108,11 @@ function Footer () {
                             </MenuLink>
                         </li>
                         <li>
+                            <MenuLink to="/aura-master" alt="Link para a página de Aura Master">
+                                Aura Master
+                            </MenuLink>
+                        </li>
+                        <li>
                             <MenuLink to="/apometria-cosmica" alt="Link para a página de Apometria Cósmica">
                                 Apometria Cósmica e Dinâmica
                             </MenuLink>

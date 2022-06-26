@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
         font-weight: 400;
         margin: 0;        
         padding: 60px 0 0;
+        background-color: #eee;
 
         @media screen and (min-width: 1280px) {
             padding: 80px 0 0;
@@ -26,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
         font-weight: 600;
     }
     h1 {
-        color: #fff;
+        color: #eee;
         font-size: 40px;
         text-shadow: 0px 0px 4px rgba(0,0,0,0.7);
         line-height: 70px;

@@ -77,6 +77,7 @@ const Therapy = styled.div`
     justify-content: space-around;
     width: 100%;
     margin-bottom: 40px;
+    background-color: #fff;
 
     @media screen and (min-width: 420px) {
         width:320px;
@@ -114,8 +115,8 @@ const Icon = styled(FontAwesomeIcon)`
 
 const Testimonies = styled.div`
     display: flex;
-    justify-content: space-evenly;
-    column-gap: 10px;
+    justify-content: center;
+    column-gap: 30px;
     flex-wrap: wrap;
 `
 

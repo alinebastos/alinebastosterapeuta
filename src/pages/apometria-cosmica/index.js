@@ -62,6 +62,7 @@ const Box = styled.div`
     padding: 20px;
     border: 1px solid #2acb35;
     border-radius: 5px;
+    background-color: #fff;
 `
 
 const Icon = styled(FontAwesomeIcon)`

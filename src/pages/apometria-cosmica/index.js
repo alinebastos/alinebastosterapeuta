@@ -152,7 +152,7 @@ function ApometriaCosmica () {
                     <p><b>Valor:</b> R$ 153,00</p>
                     <p><b>Formas de pagamento</b></p>
                     <p><b>PIX:</b> alineabp@gmail.com</p>
-                    <p><b>Cartão de Crédito: </b><a href="https://picpay.me/alynebastoss/153.0" target="_blank" rel="noreferrer" >Link para o PicPay</a></p>
+                    <p><b>Cartão de Crédito: </b><a href="https://picpay.me/alinebastos1974/153.0" target="_blank" rel="noreferrer" >Link para o PicPay</a></p>
                     <p><b>TED/DOC:</b><br />
                     Aline Bastos Pinto<br />
                     Banco: Nubank - 0260<br />

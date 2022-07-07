@@ -5,6 +5,7 @@ import Home from './pages/home';
 import AuraMaster from './pages/aura-master'
 import ApometriaCosmica from './pages/apometria-cosmica';
 import CuraArcturiana from './pages/cura-arcturiana';
+import CursoCuraArcturiana from './pages/curso-cura-arcturiana';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/aura-master' element={<AuraMaster />} />
           <Route path='/apometria-cosmica' element={<ApometriaCosmica />} />
           <Route path='/cura-arcturiana' element={<CuraArcturiana />} />
+          <Route path='/curso-cura-arcturiana' element={<CursoCuraArcturiana />} options={{Header: () => null}} />
         </Routes>
         <Footer />
       </Router>

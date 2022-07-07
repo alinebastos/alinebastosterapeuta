@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import SiteLogo from './images/AlineBastosWhite.png';
 import SocialIcons from '../social-icons';
@@ -91,7 +91,13 @@ const Social = styled.div`
 `
 
 
-function Footer () {
+function Footer () {    
+    const location = useLocation();
+
+    if (location.pathname === '/curso-cura-arcturiana') {
+        return null
+    }
+    
     return (
         <HeaderWrapper>
             <Container>
@@ -107,11 +113,11 @@ function Footer () {
                                 Home
                             </MenuLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <MenuLink to="/aura-master" alt="Link para a página de Aura Master">
                                 Aura Master
                             </MenuLink>
-                        </li>
+                        </li> */}
                         <li>
                             <MenuLink to="/apometria-cosmica" alt="Link para a página de Apometria Cósmica">
                                 Apometria Cósmica e Dinâmica

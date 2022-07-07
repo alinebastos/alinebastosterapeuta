@@ -29,10 +29,10 @@ const GlobalStyles = createGlobalStyle`
     h1 {
         color: #eee;
         font-size: 40px;
-        text-shadow: 0px 0px 4px rgba(0,0,0,0.7);
+        text-shadow: 0px 0px 4px rgba(0,0,0,0.9);
         line-height: 70px;
         text-align: center;
-        padding: 20px;       
+        padding: 20px;
 
         @media screen and (min-width: 768px) {
             font-size: 60px;

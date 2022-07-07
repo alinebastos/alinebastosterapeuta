@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import SiteLogo from './images/AlineBastosBlack.png';
 import Butterfly from './images/Butterfly.png';
@@ -205,6 +205,11 @@ function Header () {
     const toggle = () => setIsOpen(!isOpen);
     const hide = () => setIsOpen(false);
     const show = () => setIsOpen(true);
+    const location = useLocation();
+
+    if (location.pathname === '/curso-cura-arcturiana') {
+        return null
+    }
 
     return (
         <HeaderWrapper>
@@ -224,12 +229,12 @@ function Header () {
                                     <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
                             </li>
-                            <li>
+                            {/* <li>
                                 <MenuLink to="/aura-master" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página de Aura Master">
                                     Aura Master
                                     <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
-                            </li>
+                            </li> */}
                             <li>
                                 <MenuLink to="/apometria-cosmica" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página de Apometria Cósmica">
                                     Apometria Cósmica e Dinâmica

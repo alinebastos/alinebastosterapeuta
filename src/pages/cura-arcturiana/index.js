@@ -159,10 +159,11 @@ function CuraArcturiana () {
             <BoxWrapper>
                 <h3>Agendamento</h3>
                 <Box>
-                    <p><b>Valor:</b> R$ 153,00</p>
+                    <p><b>Valor:</b> R$ 99,00</p>
                     <p><b>Formas de pagamento</b></p>
                     <p><b>PIX:</b> alineabp@gmail.com</p>
-                    <p><b>Cartão de Crédito: </b><a href="https://picpay.me/alinebastos1974/153.0" target="_blank" rel="noreferrer" >Link para o PicPay</a></p>
+                    <p><b>PayPal:</b> alineabp@gmail.com</p>
+                    <p><b>Cartão de Crédito: </b><a href="https://mpago.la/1do6Kgq" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a></p>
                     <p><b>TED/DOC:</b><br />
                     Aline Bastos Pinto<br />
                     Banco: Nubank - 0260<br />

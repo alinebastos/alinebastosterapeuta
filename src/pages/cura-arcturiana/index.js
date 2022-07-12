@@ -159,7 +159,7 @@ function CuraArcturiana () {
             <BoxWrapper>
                 <h3>Agendamento</h3>
                 <Box>
-                    <p><b>Valor:</b> De <strike>R$ 153</strike> por R$ 99,00</p>
+                    <p><b>Valor:</b> De <strike>R$ 153,00</strike> por R$ 99,00</p>
                     <p><b>Formas de pagamento</b></p>
                     <p><b>PIX:</b> alineabp@gmail.com</p>
                     <p><b>PayPal:</b> alineabp@gmail.com</p>

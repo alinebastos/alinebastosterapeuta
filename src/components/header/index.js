@@ -229,12 +229,12 @@ function Header () {
                                     <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
                             </li>
-                            {/* <li>
+                            <li>
                                 <MenuLink to="/aura-master" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página de Aura Master">
                                     Aura Master
                                     <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
-                            </li> */}
+                            </li>
                             <li>
                                 <MenuLink to="/apometria-cosmica" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página de Apometria Cósmica">
                                     Apometria Cósmica e Dinâmica

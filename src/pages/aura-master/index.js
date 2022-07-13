@@ -187,11 +187,11 @@ function AuraMaster () {
                 <BoxWrapper>
                     <h3>Agendamento</h3>
                     <Box>
-                        <p><b>Valor:</b> R$ 150,00</p>
+                        <p><b>Valor:</b> De <strike>R$ 153,00</strike> por R$ 99,00</p>
                         <p><b>Formas de pagamento</b></p>
                         <p><b>PIX:</b> alineabp@gmail.com</p>
                         <p><b>PayPal:</b> alineabp@gmail.com</p>
-                        <p><b>Cartão de Crédito: </b><a href="https://picpay.me/alinebastos1974/150.0" target="_blank" rel="noreferrer" >Link para o PicPay</a></p>
+                        <p><b>Cartão de Crédito: </b><a href="https://mpago.la/1do6Kgq" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a></p>
                         <p><b>TED/DOC:</b><br />
                         Aline Bastos Pinto<br />
                         Banco: Nubank - 0260<br />
@@ -199,7 +199,7 @@ function AuraMaster () {
                         Conta: 85967030-2</p>
                         <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o WhatsApp: <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">(51) 98301-1098</a>.</p>
                         <Icon icon={faEllipsis} />
-                        <p>A duração do atendimento de Aura Master varia entre 1h e 2h, então reserve este tempo no dia do atendimento.</p>
+                        <p>A duração do atendimento de Aura Master varia entre 1h e 1h30min, então reserve este tempo no dia do atendimento.</p>
                         <p>O atendimento é online, pelo Google Meet. O link será enviado para o seu whatsapp alguns minutos antes da consulta.</p>
                         <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                     <p>Leia as informações e marque TODAS as alternativas:</p>

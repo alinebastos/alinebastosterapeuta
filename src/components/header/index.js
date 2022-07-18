@@ -207,7 +207,7 @@ function Header () {
     const show = () => setIsOpen(true);
     const location = useLocation();
 
-    if (location.pathname === '/curso-cura-arcturiana') {
+    if (location.pathname === '/faq-cura-arcturiana') {
         return null
     }
 

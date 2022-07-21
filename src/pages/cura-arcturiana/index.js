@@ -159,6 +159,15 @@ function CuraArcturiana () {
             <BoxWrapper>
                 <h3>Agendamento</h3>
                 <Box>
+                    <p><b>Informações sobre o atendimento:</b></p>
+                    <p>O atendimento dura entre 1h e 1h30min.</p>
+                    <p>No horário marcado, teremos uma breve conversa online, pelo Google Meet, para nos conhecermos e conversarmos. O Link será enviado junto com a confirmação do seu agendamento. Em caso de dúvida sobre o link ou sobre o Google Meet é só entrar em contato comigo pelo <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
+                    <p>Após nossa conversa, deixe um copo de água ao seu lado para beber ao levantar, deite e relaxe. É completamente normal dormir, não se preocupe se isso acontecer, o tratamento ocorrerá de qualquer forma.</p>
+                    <p>Reserve esse momento para você, certifique-se de que não será interrompida(o).</p>
+                    <p>Depois é encaminhado um áudio gravado com tudo o que foi feito no atendimento.</p>
+                    <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
+                    <Icon icon={faEllipsis} />
+                    <p><b>Informações sobre o valor e as formas de pagamento:</b></p>
                     <p><b>Valor:</b> De <strike>R$ 153,00</strike> por R$ 99,00</p>
                     <p><b>Formas de pagamento</b></p>
                     <p><b>PIX:</b> alineabp@gmail.com</p>
@@ -171,18 +180,6 @@ function CuraArcturiana () {
                     Conta: 85967030-2</p>
                     <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o WhatsApp: <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">(51) 98301-1098</a>.</p>
                     <Icon icon={faEllipsis} />
-                    <p><b>Informações sobre o atendimento:</b></p>
-                    <p>
-                        <List>
-                            <li>Deitar no horário combinado</li>
-                            <li>Reservar esse momento para você, certifique-se que não será interrompido</li>
-                            <li>Colocar um copo de água do lado, beber ao final do atendimento</li>
-                        </List>
-                    </p>
-                    <p>O atendimento é realizado a distância, não é necessário realizar nenhum tipo de chamada (inclusive vídeo).</p>
-                    <p>O atendimento dura em torno de 1 hora.</p>
-                    <p>Depois é encaminhado um áudio gravado com o que foi feito no atendimento</p>
-                    <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                     <p>Leia as informações e marque TODAS as alternativas:</p>
                     <p>
                         <label>

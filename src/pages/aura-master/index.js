@@ -187,6 +187,13 @@ function AuraMaster () {
                 <BoxWrapper>
                     <h3>Agendamento</h3>
                     <Box>
+                        <p><b>Informações sobre o atendimento:</b></p>
+                        <p>O atendimento dura entre 1h e 1h30min.</p>
+                        <p>No horário marcado nos conectamos pelo Google Meet, para nos conhecermos e trabalharmos na técnica ideal para você. O Link será enviado junto com a confirmação do seu agendamento. Em caso de dúvida sobre o link ou sobre o Google Meet é só entrar em contato comigo pelo <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
+                        <p>Reserve esse momento para você, certifique-se de que não será interrompida(o).</p>
+                        <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
+                        <Icon icon={faEllipsis} />
+                        <p><b>Informações sobre o valor e as formas de pagamento:</b></p>
                         <p><b>Valor:</b> De <strike>R$ 153,00</strike> por R$ 99,00</p>
                         <p><b>Formas de pagamento</b></p>
                         <p><b>PIX:</b> alineabp@gmail.com</p>
@@ -199,31 +206,28 @@ function AuraMaster () {
                         Conta: 85967030-2</p>
                         <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o WhatsApp: <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">(51) 98301-1098</a>.</p>
                         <Icon icon={faEllipsis} />
-                        <p>A duração do atendimento de Aura Master varia entre 1h e 1h30min, então reserve este tempo no dia do atendimento.</p>
-                        <p>O atendimento é online, pelo Google Meet. O link será enviado para o seu whatsapp alguns minutos antes da consulta.</p>
-                        <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
-                    <p>Leia as informações e marque TODAS as alternativas:</p>
-                    <p>
-                        <label>
-                        <input ref={check1}
-                            name="isGoing"
-                            type="checkbox"
-                            onChange={() => handleInputChange()} /> Estou ciente de que eu sou responsável pelo meu processo, e não o terapeuta<br />
-                        </label>
-                        <label>
-                        <input ref={check2}
-                            name="isGoing"
-                            type="checkbox"
-                            onChange={() => handleInputChange()} /> Estou aberto e permito que meu campo seja acessado, a fim de que as curas necessárias aconteçam<br />
-                        </label>
-                        <label>
-                        <input ref={check3}
-                            name="isGoing"
-                            type="checkbox"
-                            onChange={() => handleInputChange()} /> Estou ciente que só poderei cancelar meu atendimento até 24 horas antes da data e hora agendada.
-                        </label>
-                    </p>
-                    <ButtonLink className={`${!disabled ? "disabled" : ""}`} href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
+                        <p>Leia as informações e marque TODAS as alternativas:</p>
+                        <p>
+                            <label>
+                            <input ref={check1}
+                                name="isGoing"
+                                type="checkbox"
+                                onChange={() => handleInputChange()} /> Estou ciente de que eu sou responsável pelo meu processo, e não o terapeuta<br />
+                            </label>
+                            <label>
+                            <input ref={check2}
+                                name="isGoing"
+                                type="checkbox"
+                                onChange={() => handleInputChange()} /> Estou aberto e permito que meu campo seja acessado, a fim de que as curas necessárias aconteçam<br />
+                            </label>
+                            <label>
+                            <input ref={check3}
+                                name="isGoing"
+                                type="checkbox"
+                                onChange={() => handleInputChange()} /> Estou ciente que só poderei cancelar meu atendimento até 24 horas antes da data e hora agendada.
+                            </label>
+                        </p>
+                        <ButtonLink className={`${!disabled ? "disabled" : ""}`} href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </Box>
                 </BoxWrapper>
             </Main>

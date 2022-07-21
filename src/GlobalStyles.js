@@ -48,7 +48,6 @@ const GlobalStyles = createGlobalStyle`
         margin: 20px 0;
     }
     p {
-        text-align: justify;
         padding-bottom: 20px;
         margin: 0;
     }

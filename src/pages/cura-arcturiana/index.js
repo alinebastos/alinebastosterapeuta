@@ -85,7 +85,7 @@ const ButtonLink = styled.a`
 
     &:hover {
         color: #fff;
-        background-color: #21a02a;
+        background-color: #790103;
     }
 
     &.disabled {
@@ -102,15 +102,13 @@ function CuraArcturiana () {
     const check1 = useRef(false);
     const check2 = useRef(false);
     const check3 = useRef(false);
-    const check4 = useRef(false);
 
     function handleInputChange(e) {
         const condOne = check1.current.checked;
         const condTwo = check2.current.checked;
         const condThree = check3.current.checked;
-        const condFour = check4.current.checked;
 
-        if (condOne && condTwo && condThree && condFour) {
+        if (condOne && condTwo && condThree) {
             console.log("disabled");
             setDisabled((prevState) => !prevState);
         } else {
@@ -195,7 +193,7 @@ function CuraArcturiana () {
                             onChange={() => handleInputChange()} /> Estou aberto e permito que meu campo seja acessado, a fim de que as curas necessárias aconteçam<br />
                         </label>
                         <label>
-                        <input ref={check4}
+                        <input ref={check3}
                             name="isGoing"
                             type="checkbox"
                             onChange={() => handleInputChange()} /> Estou ciente que só poderei cancelar meu atendimento até 24 horas antes da data e hora agendada.

@@ -7,7 +7,7 @@ const Header = styled.div`
     max-width: 1920px;
     height: 300px;
     margin: 0 auto;
-    background-image: url('happiness15.jpg');
+    background-image: url('happiness17.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@ const Header = styled.div`
     align-items: center;
 
     &::before {
-        background: rgba(74.1, 0, 1.1, 0.70) none repeat scroll 0 0;
+        background: rgba(74.1, 0, 1.1, 0.60) none repeat scroll 0 0;
         content: "";
         height: 100%;
         left: 0;

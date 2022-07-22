@@ -22,7 +22,7 @@ const GlobalStyles = createGlobalStyle`
         outline: none;
     }
     h1, h2, h3, h4, h5, h6 {
-        color: #2acb35;
+        color: #bd0003;
         margin: 0;
         font-weight: 600;
     }
@@ -59,7 +59,10 @@ const GlobalStyles = createGlobalStyle`
         transition: all 0.5s ease 0s;
         text-decoration: none;
         outline: none;
-        color: #2acb35;
+        color: #bd0003;        
+    }
+    a {
+        font-weight: 600;
     }
     img {
         max-width: 100%;

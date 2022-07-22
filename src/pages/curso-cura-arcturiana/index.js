@@ -103,7 +103,7 @@ const Button = styled.a`
     display: inline-block;
     padding: 10px 20px;
     border-radius: 8px;
-    background-color: #2acb35;
+    background-color: #bd0003;
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;

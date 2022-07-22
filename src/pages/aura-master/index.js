@@ -18,7 +18,7 @@ const Header = styled.div`
     align-items: center;
 
     &::before {
-        background: rgba(44, 203, 56, 0.80) none repeat scroll 0 0;
+        background: rgba(74.1, 0, 1.1, 0.70) none repeat scroll 0 0;
         content: "";
         height: 100%;
         left: 0;
@@ -47,7 +47,7 @@ const ListWrapper = styled.div`
 const List = styled.ul`
     li {
         padding-left: 28px;
-        background: url('check.png') no-repeat center left;
+        background: url('red-check.png') no-repeat center left;
         font-size: 15px;
     }
 `
@@ -61,7 +61,7 @@ const BoxWrapper = styled.div`
 
 const Box = styled.div`
     padding: 20px;
-    border: 1px solid #2acb35;
+    border: 1px solid #bd0003;
     border-radius: 5px;
     background-color: #fff;
 `
@@ -70,7 +70,7 @@ const Icon = styled(FontAwesomeIcon)`
     font-size: 40px;
     margin: 10px auto 30px;
     display: block;
-    color: #2acb35;
+    color: #bd0003;
 `
 
 const ButtonLink = styled.a`
@@ -78,7 +78,7 @@ const ButtonLink = styled.a`
     width:200px;
     height:50px;
     border-radius: 5px;
-    background-color: #2acb35;
+    background-color: #bd0003;
     color: #fff;
     text-align: center;
     line-height: 50px;

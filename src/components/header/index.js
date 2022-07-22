@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
-import SiteLogo from './images/AlineBastosBlack.png';
-import Butterfly from './images/Butterfly.png';
+import SiteLogo from './images/AlineBastosBlack2.png';
+import Butterfly from './images/Butterfly-red.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import SocialIcons from '../social-icons'
@@ -31,15 +31,13 @@ const Container = styled.div`
     width: 100%;
 
     @media screen and (min-width: 1024px) {
-        height: 80px;
+        height: 100px;
         padding: 0 20px;
     }
 `
 
 const Logo = styled.div`
     order: 2;
-    width: 250px;
-    height: 40px;
 
     @media screen and (min-width: 1280px) {
         order: 1;
@@ -47,8 +45,8 @@ const Logo = styled.div`
 `
 
 const LogoImg = styled.img`    
-    width: 250px;
-    height: 40px;
+    width: auto;
+    height: auto;
 `
 
 const NavToogle = styled.button`
@@ -72,7 +70,7 @@ const NavToogle = styled.button`
 
 const Icon = styled(FontAwesomeIcon)`
     font-size: 24px;
-    color: #2acb35;
+    color: #bd0003;
 `
 
 const NavWrapper = styled.div`
@@ -103,7 +101,7 @@ const Nav = styled.nav`
                 flex-direction: column;
     
                 li {
-                    border-bottom: 1px solid #2acb35;
+                    border-bottom: 1px solid #bd0003;
     
                     &:last-of-type {
                         border: none;
@@ -160,7 +158,7 @@ const MenuLink = styled(NavLink)`
     padding: 0 20px;
 
     &.active {
-        color: #2acb35;
+        color: #bd0003;
     }
 
     img {

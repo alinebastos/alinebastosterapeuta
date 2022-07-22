@@ -1,10 +1,10 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
-import SiteLogo from './images/AlineBastosWhite.png';
+import SiteLogo from './images/AlineBastosWhite2.png';
 import SocialIcons from '../social-icons';
 
 const HeaderWrapper = styled.footer`
-    background-color: #404040;
+    background-color: #5b5b5b;
     width: 100%;
     margin-top:50px;
 
@@ -27,8 +27,6 @@ const Container = styled.div`
 `
 
 const Logo = styled.div`
-    height: 40px;
-    width: 250px;
     margin: 0 auto 30px;
 
     @media screen and (min-width: 768px) {
@@ -38,7 +36,7 @@ const Logo = styled.div`
 
 const LogoImg = styled.img`
     width: 250px;
-    height: 40px;
+    height: auto;
 `
 
 const Nav = styled.nav`
@@ -59,6 +57,8 @@ const MenuLink = styled(NavLink)`
     text-transform: uppercase;
     line-height: 30px;
     text-align: center;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.9);
 
     &:hover {
         color:#fff;

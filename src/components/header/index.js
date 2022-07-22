@@ -37,16 +37,25 @@ const Container = styled.div`
 `
 
 const Logo = styled.div`
+    width: auto;
+    height: 50px;
     order: 2;
 
     @media screen and (min-width: 1280px) {
         order: 1;
+        width: 300px;
+        height: 80px;
     }
 `
 
-const LogoImg = styled.img`    
+const LogoImg = styled.img`
     width: auto;
-    height: auto;
+    height: 50px;
+
+    @media screen and (min-width: 1280px) {
+        width: 300px;
+        height: 80px;
+    }
 `
 
 const NavToogle = styled.button`

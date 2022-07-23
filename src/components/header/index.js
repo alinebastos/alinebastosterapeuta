@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import SiteLogo from './images/AlineBastosBlack2.png';
-import Butterfly from './images/Butterfly-red.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import SocialIcons from '../social-icons'
@@ -126,11 +125,6 @@ const Nav = styled.nav`
                         &:hover {
                             background-color: rgba(44, 203, 56, 0.10);
                         }
-    
-                        img {
-                            right: 10px;
-                            top: 12px;
-                        }
                     }
                 }
             }
@@ -168,16 +162,6 @@ const MenuLink = styled(NavLink)`
 
     &.active {
         color: #bd0003;
-    }
-
-    img {
-        opacity: 0;   
-        position: absolute;
-        right: -2px;
-        top: 2px;
-        width: 30px;
-        height: auto;
-        transition: all 0.5s ease 0s;
     }
 
     &:hover img,
@@ -233,25 +217,21 @@ function Header () {
                             <li>
                                 <MenuLink to="/" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a Home">
                                     Home
-                                    <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
                             </li>
                             <li>
                                 <MenuLink to="/aura-master" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página de Aura Master">
                                     Aura Master
-                                    <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
                             </li>
                             <li>
                                 <MenuLink to="/apometria-cosmica" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página de Apometria Cósmica">
                                     Apometria Cósmica e Dinâmica
-                                    <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
                             </li>
                             <li>
                                 <MenuLink to="/cura-arcturiana" onClick={toggle} onBlur={hide} onFocus={show} alt="Link para a página Cura Multidimensional Arcturiana">
                                     Cura Multidimensional Arcturiana
-                                    <img src={Butterfly} alt="Aline Bastoss" />
                                 </MenuLink>
                             </li>
                         </ul>

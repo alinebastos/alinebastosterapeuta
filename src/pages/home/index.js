@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
-import Depoimento from './images/Depoimento.png';
+import Depoimento1 from './images/Depoimento1.png';
 import Depoimento2 from './images/Depoimento2.png';
 import Depoimento3 from './images/Depoimento3.png';
 
@@ -206,7 +206,7 @@ function Home () {
                 </Testimony>
                 <Testimony>
                     <p>31 de Maio de 2022</p>
-                    <img src={Depoimento} alt="Depoimento" />
+                    <img src={Depoimento1} alt="Depoimento" />
                 </Testimony>
             </Testimonies>
         </>

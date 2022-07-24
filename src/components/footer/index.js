@@ -59,9 +59,10 @@ const MenuLink = styled(NavLink)`
     text-align: center;
     font-weight: 600;
     text-shadow: 0px 0px 1px rgba(0,0,0,0.9);
+    color: #fff;
 
     &:hover {
-        color:#fff;
+        color:#eee;
     }
 `
 

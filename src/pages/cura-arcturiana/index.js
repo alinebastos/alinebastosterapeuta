@@ -166,7 +166,7 @@ function CuraArcturiana () {
                     <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                     <Icon icon={faEllipsis} />
                     <p><b>Informações sobre o valor e as formas de pagamento:</b></p>
-                    <p><b>Valor:</b> De <strike>R$ 153,00</strike> por R$ 99,00</p>
+                    <p><b>Valor: </b>R$ 144,00</p>
                     <p><b>Formas de pagamento</b></p>
                     <p><b>PIX:</b> alineabp@gmail.com</p>
                     <p><b>PayPal:</b> alineabp@gmail.com</p>

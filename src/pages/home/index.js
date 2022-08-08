@@ -1,11 +1,7 @@
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
-import Depoimento1 from './images/Depoimento1.png';
-import Depoimento2 from './images/Depoimento2.png';
-import Depoimento3 from './images/Depoimento3.png';
+import Testimonials from '../../components/testimonials';
 
 const Header = styled.div`
     max-width: 1920px;
@@ -106,37 +102,6 @@ const ButtonLink = styled(NavLink)`
     }
 `
 
-const Icon = styled(FontAwesomeIcon)`
-    font-size: 40px;
-    margin: 10px auto 30px;
-    display: block;
-    color: #bd0003;
-`
-
-const Testimonies = styled.div`
-    display: flex;
-    justify-content: center;
-    column-gap: 30px;
-    flex-wrap: wrap;
-`
-
-const Testimony = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 40px;
-    font-weight: 600;
-
-    img {
-        width: 100%;
-    }
-
-    @media screen and (min-width: 540px) {
-        width: 500px;
-    }
-`
-
 function Home () {
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -191,24 +156,9 @@ function Home () {
                         <p>A Cura Multidimensional Arcturiana é uma jornada para a cura interior e autoconhecimento. É uma terapia energética que utiliza a frequência vibracional de símbolos da geometria sagrada. Essas frequências trabalham nos campos físico, mental, emocional e espiritual, através do coração. O propósito do tratamento é elevar o seu nível vibracional. Os símbolos atuam no nível da alma e dos corpos extra físicos indo até a raiz kármica e causal, harmonizando as vibrações que vão se integrar e refletir na sua vida atual.</p>
                         <ButtonLink style={{ marginBottom: '20px'}} to="/cura-arcturiana">Saiba Mais!</ButtonLink>
                     </Therapy>
-                </Therapies>                
-                <Icon icon={faEllipsis} />
+                </Therapies>
             </Main>
-            <h2>Depoimentos de alguns clientes:</h2>
-            <Testimonies>
-                <Testimony>
-                    <p>19 de Junho de 2022</p>
-                    <img src={Depoimento3} alt="Depoimento" />
-                </Testimony>
-                <Testimony>
-                    <p>11 de Junho de 2022</p>
-                    <img src={Depoimento2} alt="Depoimento" />
-                </Testimony>
-                <Testimony>
-                    <p>31 de Maio de 2022</p>
-                    <img src={Depoimento1} alt="Depoimento" />
-                </Testimony>
-            </Testimonies>
+            <Testimonials />
         </>
     );
 }

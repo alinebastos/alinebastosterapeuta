@@ -1,7 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
+import PaymentInfo from '../../components/payment-info';
 import styled from 'styled-components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEllipsis } from '@fortawesome/free-solid-svg-icons'
 
 const Header = styled.div`
     max-width: 1920px;
@@ -64,13 +63,6 @@ const Box = styled.div`
     border: 1px solid #bd0003;
     border-radius: 5px;
     background-color: #fff;
-`
-
-const Icon = styled(FontAwesomeIcon)`
-    font-size: 40px;
-    margin: 10px auto 30px;
-    display: block;
-    color: #bd0003;
 `
 
 const ButtonLink = styled.a`
@@ -192,20 +184,7 @@ function AuraMaster () {
                         <p>No horário marcado nos conectamos pelo Google Meet, para nos conhecermos e trabalharmos na técnica ideal para você. O Link será enviado junto com a confirmação do seu agendamento. Em caso de dúvida sobre o link ou sobre o Google Meet é só entrar em contato comigo pelo <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
                         <p>Reserve esse momento para você, certifique-se de que não será interrompida(o).</p>
                         <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
-                        <Icon icon={faEllipsis} />
-                        <p><b>Informações sobre o valor e as formas de pagamento:</b></p>
-                        <p><b>Valor: </b>R$ 144,00</p>
-                        <p><b>Formas de pagamento</b></p>
-                        <p><b>PIX:</b> alineabp@gmail.com</p>
-                        <p><b>PayPal:</b> alineabp@gmail.com</p>
-                        <p><b>Cartão de Crédito: </b><a href="https://mpago.la/33BwUJf" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a></p>
-                        <p><b>TED/DOC:</b><br />
-                        Aline Bastos Pinto<br />
-                        Banco: Nubank - 0260<br />
-                        Agência: 0001<br />
-                        Conta: 85967030-2</p>
-                        <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o WhatsApp: <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">(51) 98301-1098</a>.</p>
-                        <Icon icon={faEllipsis} />
+                        <PaymentInfo />
                         <p>Leia as informações e marque TODAS as alternativas:</p>
                         <p>
                             <label>

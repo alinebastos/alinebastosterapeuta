@@ -183,6 +183,7 @@ function AuraMaster () {
                         <p>O atendimento dura entre 1h e 1h30min.</p>
                         <p>No horário marcado nos conectamos pelo Google Meet, para nos conhecermos e trabalharmos na técnica ideal para você. O Link será enviado junto com a confirmação do seu agendamento. Em caso de dúvida sobre o link ou sobre o Google Meet é só entrar em contato comigo pelo <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
                         <p>Reserve esse momento para você, certifique-se de que não será interrompida(o).</p>
+                    <p>No final haverá a aplicação de Reiki Xamânico para amplificar o seu bem-estar.</p>
                         <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                         <PaymentInfo />
                         <p>Leia as informações e marque TODAS as alternativas:</p>

@@ -147,7 +147,7 @@ function ApometriaCosmica () {
                     <p>No horário marcado, teremos uma breve conversa online, pelo Google Meet, para nos conhecermos e conversarmos. O Link será enviado junto com a confirmação do seu agendamento. Em caso de dúvida sobre o link ou sobre o Google Meet é só entrar em contato comigo pelo <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
                     <p>Após nossa conversa, deixe um copo de água ao seu lado para beber ao levantar, deite e relaxe. É completamente normal dormir, não se preocupe se isso acontecer, o tratamento ocorrerá de qualquer forma.</p>
                     <p>Reserve esse momento para você, certifique-se de que não será interrompida(o).</p>
-                    <p>No final haverá a aplicação de Reiki Xamânico para amplificar o seu bem-estar.</p>
+                    <p>No final haverá o envio de Reiki Xamânico para amplificar o seu bem-estar.</p>
                     <p>Depois é encaminhado um áudio gravado com tudo o que foi feito no atendimento.</p>
                     <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                     <PaymentInfo />

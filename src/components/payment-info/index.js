@@ -18,7 +18,7 @@ function PaymentInfo () {
             <p><b>Formas de pagamento</b></p>
             <p><b>PIX:</b> alineabp@gmail.com</p>
             <p><b>PayPal:</b> alineabp@gmail.com</p>
-            <p><b>Cartão de Crédito: </b><a href="https://mpago.la/1jQYQpk" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a></p>
+            <p><b>Cartão de Crédito (Parcelamento): </b><a href="https://mpago.la/1jQYQpk" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a></p>
             <p><b>TED/DOC:</b><br />
             Aline Bastos Pinto<br />
             Banco: Nubank - 0260<br />

@@ -95,7 +95,7 @@ const Social = styled.div`
 function Footer () {    
     const location = useLocation();
 
-    if (location.pathname === '/faq-cura-arcturiana') {
+    if (location.pathname === '/faq-cura-arcturiana' || location.pathname === '/curso-cura-arcturiana') {
         return null
     }
     

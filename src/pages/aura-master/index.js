@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from 'react';
+import { useEffect } from 'react';
 import PaymentInfo from '../../components/payment-info';
 import styled from 'styled-components';
 
@@ -90,24 +90,6 @@ const ButtonLink = styled.a`
 `
 
 function AuraMaster () {
-    const [disabled, setDisabled] = useState(false);
-
-    const check1 = useRef(false);
-    const check2 = useRef(false);
-    const check3 = useRef(false);
-
-    function handleInputChange(e) {
-        const condOne = check1.current.checked;
-        const condTwo = check2.current.checked;
-        const condThree = check3.current.checked;
-
-        if (condOne && condTwo && condThree) {
-            console.log("disabled");
-            setDisabled((prevState) => !prevState);
-        } else {
-            setDisabled(false);
-        }
-    }
 
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -185,28 +167,7 @@ function AuraMaster () {
                         <p>Reserve esse momento para você, certifique-se de que não será interrompida(o).</p>
                         <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                         <PaymentInfo />
-                        <p>Leia as informações e marque TODAS as alternativas:</p>
-                        <p>
-                            <label>
-                            <input ref={check1}
-                                name="isGoing"
-                                type="checkbox"
-                                onChange={() => handleInputChange()} /> Estou ciente de que eu sou responsável pelo meu processo, e não o terapeuta<br />
-                            </label>
-                            <label>
-                            <input ref={check2}
-                                name="isGoing"
-                                type="checkbox"
-                                onChange={() => handleInputChange()} /> Estou aberto e permito que meu campo seja acessado, a fim de que as curas necessárias aconteçam<br />
-                            </label>
-                            <label>
-                            <input ref={check3}
-                                name="isGoing"
-                                type="checkbox"
-                                onChange={() => handleInputChange()} /> Estou ciente que só poderei cancelar meu atendimento até 24 horas antes da data e hora agendada.
-                            </label>
-                        </p>
-                        <ButtonLink className={`${!disabled ? "disabled" : ""}`} href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
+                        <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </Box>
                 </BoxWrapper>
             </Main>

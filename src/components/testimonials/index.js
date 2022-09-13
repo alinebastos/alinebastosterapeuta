@@ -1,16 +1,7 @@
 import styled from "styled-components";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
 import Depoimento1 from './images/Depoimento1.png';
 import Depoimento2 from './images/Depoimento2.png';
 import Depoimento3 from './images/Depoimento3.png';
-
-const Icon = styled(FontAwesomeIcon)`
-font-size: 40px;
-margin: 10px auto 30px;
-display: block;
-color: #bd0003;
-`
 
 const Testimonies = styled.div`
 display: flex;
@@ -39,7 +30,6 @@ img {
 function Testimonials () {
     return (
         <>
-            <Icon icon={faEllipsis} />
             <h2>Depoimentos de alguns clientes:</h2>
             <Testimonies>
                 <Testimony>

@@ -17,7 +17,7 @@ function PaymentInfo () {
             <p><b>Valor: </b>R$ 144,00</p>
             <p><b>Formas de pagamento</b></p>
             <p><b>PIX:</b> alineabp@gmail.com</p>
-            <p><b>PayPal:</b> alineabp@gmail.com</p>
+            <p><b>PayPal (Para pagamentos internacionais):</b> alineabp@gmail.com</p>
             <p><b>Cartão de Crédito (Parcelamento): </b><a href="https://mpago.la/111hYP8" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a></p>
             <p><b>TED/DOC:</b><br />
             Aline Bastos Pinto<br />

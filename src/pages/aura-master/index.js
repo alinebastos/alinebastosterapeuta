@@ -166,8 +166,7 @@ function AuraMaster () {
                         <p>No horário marcado nos conectamos pelo Google Meet, para nos conhecermos e trabalharmos na técnica ideal para você. O Link será enviado junto com a confirmação do seu agendamento. Em caso de dúvida sobre o link ou sobre o Google Meet é só entrar em contato comigo pelo <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
                         <p>Reserve esse momento para você, certifique-se de que não será interrompida(o).</p>
                         <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
-                        <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
-                        <PaymentInfo />
+                        <PaymentInfo price="99" info="(Consulte Pacotes)" />
                         <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </Box>
                 </BoxWrapper>

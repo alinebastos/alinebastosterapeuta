@@ -139,8 +139,7 @@ function CuraArcturiana () {
                     <p>No final haverá o envio de Reiki Xamânico para amplificar o seu bem-estar.</p>
                     <p>Depois é encaminhado um áudio gravado com tudo o que foi feito no atendimento.</p>
                     <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
-                    <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
-                    <PaymentInfo />
+                    <PaymentInfo price="144" />
                     <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                 </Box>
             </BoxWrapper>

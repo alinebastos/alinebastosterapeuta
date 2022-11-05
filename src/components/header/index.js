@@ -1,9 +1,9 @@
-import { useState } from 'react';
+//import { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import SiteLogo from './images/AlineBastosBlack2.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import SocialIcons from '../social-icons'
 
 const HeaderWrapper = styled.header`
@@ -57,7 +57,7 @@ const LogoImg = styled.img`
     }
 `
 
-const NavToogle = styled.button`
+/* const NavToogle = styled.button`
     z-index: 7;
     border: 1px solid #aeaeae;
     background: #ffffff;
@@ -170,7 +170,7 @@ const MenuLink = styled(NavLink)`
     &.active img {
         opacity: 1;
     }
-`
+` */
 
 const Social = styled.div`
     order: 3;
@@ -192,10 +192,10 @@ const Social = styled.div`
 
 
 function Header () {
-    const [isOpen, setIsOpen] = useState(false);
+    /* const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
     const hide = () => setIsOpen(false);
-    const show = () => setIsOpen(true);
+    const show = () => setIsOpen(true); */
     const location = useLocation();
 
     if (location.pathname === '/faq-cura-arcturiana' || location.pathname === '/curso-cura-arcturiana') {
@@ -210,7 +210,7 @@ function Header () {
                         <LogoImg src={SiteLogo} alt="Aline Bastos" />
                     </NavLink>
                 </Logo>
-                <NavWrapper>
+                {/* <NavWrapper>
                     <NavToogle className="menu-toggle" onClick={toggle} type='button'><Icon icon={isOpen ? faClose : faBars} className={`menu ${isOpen ? 'cross' : 'hamburger'}`} /></NavToogle>
                     <Nav className={`menu-links ${isOpen ? 'show' : ''}`}>
                         <ul>
@@ -236,7 +236,7 @@ function Header () {
                             </li>
                         </ul>
                     </Nav>
-                </NavWrapper>
+                </NavWrapper> */}
                 <Social>
                    <span>Contatos:</span> <SocialIcons />
                 </Social>

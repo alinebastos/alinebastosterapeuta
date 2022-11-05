@@ -6,7 +6,7 @@ const Header = styled.div`
     max-width: 1920px;
     height: 500px;
     margin: 0 auto;
-    background-image: url('happiness20.jpg');
+    background-image: url('happiness2.jpg');
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;

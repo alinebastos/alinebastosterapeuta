@@ -39,7 +39,7 @@ const LogoImg = styled.img`
     height: auto;
 `
 
-const Nav = styled.nav`
+/* const Nav = styled.nav`
     margin-bottom: 30px;
 
     ul {
@@ -64,7 +64,7 @@ const MenuLink = styled(NavLink)`
     &:hover {
         color:#eee;
     }
-`
+` */
 
 const Icons = styled(SocialIcons)`
     a {
@@ -107,7 +107,7 @@ function Footer () {
                         <LogoImg src={SiteLogo} alt="aline bastos" />
                     </NavLink>
                 </Logo>
-                <Nav>
+                {/* <Nav>
                     <ul>
                         <li>
                             <MenuLink to="/" alt="Link para a Home">
@@ -130,7 +130,7 @@ function Footer () {
                             </MenuLink>
                         </li>
                     </ul>
-                </Nav>
+                </Nav> */}
                 <Social>         
                     <span>Contatos: </span><Icons /> 
                 </Social>                 

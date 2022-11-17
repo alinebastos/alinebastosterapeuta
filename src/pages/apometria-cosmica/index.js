@@ -119,7 +119,7 @@ function ApometriaCosmica () {
                     <li>Proteção espiritual.</li>
                 </List>
             </ListWrapper>
-            <BoxWrapper>
+            {/* <BoxWrapper>
                 <h3>Agendamento</h3>
                 <Box>
                     <p><b>Informações sobre o atendimento:</b></p>
@@ -133,7 +133,7 @@ function ApometriaCosmica () {
                     <PaymentInfo price="144" />
                     <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                 </Box>
-            </BoxWrapper>
+            </BoxWrapper> */}
         </Main>
         <Testimonials />
         </>

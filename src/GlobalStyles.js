@@ -15,7 +15,7 @@ const GlobalStyles = createGlobalStyle`
         background-color: #eee;
 
         @media screen and (min-width: 1280px) {
-            padding: 80px 0 0;
+            padding: 120px 0 0;
         }
     }
     button:focus{

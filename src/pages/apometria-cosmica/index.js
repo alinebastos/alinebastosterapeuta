@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import PaymentInfo from '../../components/payment-info';
+//import PaymentInfo from '../../components/payment-info';
 import styled from 'styled-components';
 import Testimonials from '../../components/testimonials';
 
@@ -51,7 +51,7 @@ const List = styled.ul`
     }
 `
 
-const BoxWrapper = styled.div`
+/* const BoxWrapper = styled.div`
     @media screen and (min-width: 767px) {
         width: 70%;
         margin 0 auto;
@@ -87,7 +87,7 @@ const ButtonLink = styled.a`
         opacity: 0.5;
         text-decoration: none;
     }
-`
+` */
 
 function ApometriaCosmica () {
 

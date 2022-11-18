@@ -34,7 +34,7 @@ function FaqApometriaCosmica() {
                 <Accordion
                     title="O curso ficará gravado?"
                     content="
-                    Sim, o curso ficará gravado na plataforma Hotmart.
+                    Sim, o curso ficará gravado e disponibilizado na plataforma Hotmart.
                     "
                 />
                 {/* 

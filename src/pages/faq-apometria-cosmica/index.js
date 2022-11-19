@@ -116,6 +116,9 @@ function FaqApometriaCosmica() {
                 <Accordion title="O curso ficará gravado?">
                     Sim, o curso ficará gravado e disponibilizado na plataforma Hotmart.
                 </Accordion>
+                <Accordion title="Na ativacao 2, o que significa o objeto que foi nos entregue?">
+                    O objeto, geralmente, simboliza algo que a sua egregora traz pra você, como um símbolo de poder.
+                </Accordion>
                 <h3>Apometria</h3>
                 <Accordion title="Em que momento utilizaremos o comando ventor solar? Seria quando a mesa apontar para energia telurica ou bases astrais?">
                     Sim, nesses momentos.

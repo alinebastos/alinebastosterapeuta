@@ -92,7 +92,7 @@ function FaqApometriaCosmica() {
                     Se for enviar para uma gráfica, prefira enviar por e-mail, pois o whatsapp diminui a qualidade do arquivo.
                 </Accordion>
                 <Accordion title="Qual o melhor tamanho para imprimir a interface?">
-                    Sugerimos imprimir em A3, mas não tem problema imprimir em outro tamanho se ficar legível e com espaço para isar o pêndulo no relógio da interface.
+                    Sugerimos imprimir em A3, mas não tem problema imprimir em outro tamanho se ficar legível e com espaço para usar o pêndulo no relógio da interface.
                 </Accordion>
                 <Accordion title="Qual pêndulo eu compro?">
                     Existem alguns tipo de materiais: madeira, metal e cristal.<br />

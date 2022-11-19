@@ -106,11 +106,11 @@ function FaqApometriaCosmica() {
                     Caso queira comprar separado, ou por curiosidade, aqui vão alguns exemplos:<br />
                     1º Chakra: Jaspe vermelho, turmalina negra, ágata vermelha, granada ou obsidiana;<br />
                     2º Chakra: Calcita laranja, ágata de fogo, jaspe madeira, cornalina e coral;<br />
-                    3º Chakra: Âmbar, ouro, calcita amarela, olho de tigre e topázio imperial;<br />
+                    3º Chakra: Âmbar, citrino, ouro, calcita amarela, olho de tigre e topázio imperial;<br />
                     4º Chakra: Turmalina melancia, quartzo verde, quartzo rosa, amazonita, jade, musgo e esmeralda;<br />
-                    5º Chakra: Turquesa, água marinha e quartzo azul;<br />
-                    6º Chakra: Lápis lazuli, safira azul e azurita;<br />
-                    7º Chakra: Angelita, ametista, quartzo branco e topázio incolor.
+                    5º Chakra: Turquesa, sodalita, água marinha e quartzo azul;<br />
+                    6º Chakra: Lápis lazuli, safira azul, ametista e azurita;<br />
+                    7º Chakra: Angelita, ametista, quartzo branco, cristal de rocha e topázio incolor.
                 </Accordion>
                 <h3>Curso</h3>
                 <Accordion title="O curso ficará gravado?">

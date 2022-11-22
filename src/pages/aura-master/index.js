@@ -1,6 +1,6 @@
-import { useEffect } from 'react';
-import PaymentInfo from '../../components/payment-info';
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight, faEllipsis } from '@fortawesome/free-solid-svg-icons';
 
 const Header = styled.div`
     max-width: 1920px;
@@ -89,12 +89,38 @@ const ButtonLink = styled.a`
     }
 `
 
+const Icon = styled(FontAwesomeIcon)`
+    font-size: 40px;
+    margin: 10px auto 30px;
+    display: block;
+    color: #bd0003;
+`
+
+const ArrowIcon = styled(FontAwesomeIcon)`
+    color: #bd0003;
+    margin-right: 5px;
+`
+
+const BoxPromotion = styled(Box)`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+`
+
+const TitlePromotion = styled.h3`
+    margin-top: 0;
+    line-height: 2;
+    text-align: center;
+`
+
+const TextPromotion = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+`
+
 function AuraMaster () {
-
-    useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
-
     return (
         <>
             <Header>       
@@ -159,14 +185,50 @@ function AuraMaster () {
                     </List>
                 </ListWrapper>
                 <BoxWrapper>
+                    <h3>Promoção Black Dezembro!</h3>
+                    <BoxPromotion>
+                        <TitlePromotion>Desconto Progressivo:<br />
+                        Quanto mais sessões, mais desconto!<br />
+                        A Promoção irá até o dia 31 de Dezembro. Aproveite!</TitlePromotion>
+                        <TextPromotion>
+                            <span className="description"><ArrowIcon icon={faArrowRight} /> 1 sessão com 10% de desconto:</span>
+                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 137,70</span><br />
+                            <span className="description"><ArrowIcon icon={faArrowRight} /> 4 sessões com 20% de desconto:</span>
+                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 489,60</span><br />
+                            <span className="description"><ArrowIcon icon={faArrowRight} /> 8 sessões com 30% de desconto:</span>
+                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 856,80</span><br />
+                            <span className="description"><ArrowIcon icon={faArrowRight} /> 12 sessões com 40% de desconto:</span>
+                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 1.101,60</span>
+                        </TextPromotion>
+                    </BoxPromotion>
+                </BoxWrapper>
+                <BoxWrapper>
                     <h3>Agendamento</h3>
                     <Box>
                         <p><b>Informações sobre o atendimento:</b></p>
                         <p>O atendimento dura entre 1h e 1h30min.</p>
-                        <p>No horário marcado nos conectamos pelo Google Meet, para nos conhecermos e trabalharmos na técnica ideal para você. O Link será enviado junto com a confirmação do seu agendamento. Em caso de dúvida sobre o link ou sobre o Google Meet é só entrar em contato comigo pelo <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
+                        <p>No horário marcado nos conectamos pelo Google Meet, para nos conhecermos e trabalharmos o melhor tratamento para você.<br />
+                        O Link será enviado junto com a confirmação do seu agendamento.<br />
+                        Em caso de dúvida sobre o link ou sobre o Google Meet é só entrar em contato comigo pelo <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
                         <p>Reserve esse momento para você, certifique-se de que não será interrompida(o).</p>
                         <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
-                        <PaymentInfo price="144" info="(Consulte Pacotes)" />
+                        
+                        <Icon icon={faEllipsis} />
+                        <p><b>Formas de pagamento</b></p>
+                        <p><b>PIX:</b> alineabp@gmail.com</p>
+                        <p><b>PayPal (Para pagamentos internacionais):</b> alineabp@gmail.com</p>
+                        <p><b>Cartão de Crédito/Parcelamento (Links para o Mercado Pago):</b><br />
+                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1EPZBmM" target="_blank" rel="noreferrer" >1 sessão</a><br />
+                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/2jMfVCL" target="_blank" rel="noreferrer" >4 sessões</a><br />
+                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1Va4Qbs" target="_blank" rel="noreferrer" >8 sessões</a><br />
+                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1TmfUfN" target="_blank" rel="noreferrer" >12 sessões</a></p>
+                        <p><b>TED/DOC:</b><br />
+                        Aline Bastos Pinto<br />
+                        Banco: Nubank - 0260<br />
+                        Agência: 0001<br />
+                        Conta: 85967030-2</p>
+                        <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o WhatsApp: <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">(51) 98301-1098</a>.</p>
+
                         <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </Box>
                 </BoxWrapper>

@@ -120,6 +120,20 @@ const TextPromotion = styled.div`
     align-items: start;
 `
 
+const Small = styled.div`
+    font-size: 14px;
+    margin-top:30px;
+    color: #bd0003;
+`
+
+const Structures = styled.div`
+    color: #bd0003;
+
+    b {
+        font-weight: 600;
+    }
+`
+
 function AuraMaster () {
     return (
         <>
@@ -127,19 +141,40 @@ function AuraMaster () {
                 <h1>Aura Master</h1>
             </Header>
             <Main>
+                <BoxWrapper>
+                    <h2>Promoção Black Dezembro!</h2>
+                    <BoxPromotion>
+                        <TitlePromotion>Descontos Progressivos:<br />
+                        Quanto mais sessões, mais desconto!<br />
+                        A Promoção irá até o dia 31 de Dezembro. Aproveite!</TitlePromotion>
+                        <TextPromotion>
+                            <span className="description"><ArrowIcon icon={faArrowRight} /> 1 sessão com 10% de desconto:</span>
+                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 137,70</span><br />
+                            <span className="description"><ArrowIcon icon={faArrowRight} /> 4 sessões com 20% de desconto:</span>
+                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 489,60</span><br />
+                            <span className="description"><ArrowIcon icon={faArrowRight} /> 8 sessões com 30% de desconto:</span>
+                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 856,80</span><br />
+                            <span className="description"><ArrowIcon icon={faArrowRight} /> 12 sessões com 40% de desconto:</span>
+                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 1.101,60</span>
+                        </TextPromotion>
+                        <Small>Valores válidos para pagamentos até 31 de Dezembro.</Small>
+                    </BoxPromotion>
+                </BoxWrapper>
                 <h2>Aura Master: O que é, para que serve e como funciona</h2>
                 <p>Já pensou como seria bom se você pudesse resolver aquelas dores emocionais como: ansiedade, medo, traumas, depressão, mágoas, desânimo, vazio na alma e todos os bloqueios psicológicos que fazem você se sentir incompreendido e insatisfeito com a vida?</p>
                 <p>Ainda mais se você conseguisse fazer isso de forma rápida e simples, sem precisar de métodos ultrapassados, demorados e caros, não é mesmo?</p>
-                <p>Desde que foi criado e difundido o Método Aura Master por Bruno Gimenes e Patrícia Cândido, isso é possível. Entenda o que é, para que serve e como funciona o Aura Master, neste conteúdo que preparamos para você.</p>
+                <p>Desde que foi criado e difundido o Método Aura Master por Bruno Gimenes e Patrícia Cândido, isso é possível. Entenda o que é, para que serve e como funciona o Aura Master.</p>
                 <h3>O que é Aura Master?</h3>
                 <p>No mundo de hoje, onde o medo, a depressão, a angústia, as crises de ansiedade e os pensamentos suicidas assombram a humanidade, não podemos esperar por tratamentos terapêuticos longos e demorados, precisamos de soluções rápidas.</p>
                 <p>Nesse sentido, o Aura Master é o que faltava para o alívio imediato das dores do corpo e da alma, em pessoas e animais, de uma forma absurdamente simples e sem a necessidade de recursos especiais e nem de remédios.</p>
                 <p>O Aura Master é uma técnica terapêutica de ação rápida, que ativa os poderes ocultos de autocura, realizando mudanças no seu estado emocional, mental e espiritual.</p>
+                <p>Só para ilustrar, imagine uma lâmpada coberta por poeira e fuligem. Ela jamais vai propagar toda a luz que está dentro dela, porque a sujeira ofusca quem ela é e a impede de expandir, muda até a sua força e a sua cor.</p>
+                <p>O mesmo acontece quando somos manipulados por padrões, que a sociedade nos impõe, e acabamos vivendo um personagem. Enquanto a Aura Master vem para desfazer essas camadas que nos escondem e proporcionar o encontro com o “Eu da Alma” ou “Eu da Matriz Divina”.</p>
                 <h3>Como funciona o Aura Master?</h3>
                 <p>Quando a técnica terapêutica Aura Master é aplicada, ela vai direto ao inconsciente e faz a limpeza que precisa fazer. Ela edita a sua memória e apaga aquilo que está ali só para te fazer mal. Tudo o que hoje tem uma trava na sua vida pode ter uma relação com alguma coisa que você carrega, não faz parte de você e precisa abrir espaço para dar lugar a sua essência. </p>
-                <h3>Aura Master para animais de estimação</h3>
-                <p>No caso da aplicação da técnica Aura Master em animais de estimação, as mesmas estruturas e recomendações de tempo devem ser seguidas. Entretanto é recomendado inicialmente apenas uma sessão por semana, exceto em casos de emergência em que a técnica Aura Master pode ser aplicada, no máximo, uma sessão por dia.</p>
-                <h3>Benefícios do Aura Master</h3>
+                <h3>Para que serve o Aura Master?</h3>
+                <p>O Método Aura Master serve para que você possa encontrar respostas, resolver traumas que carrega desde a infância. Você pode limpar uma culpa de anos por meio dessa técnica de alívio imediato.</p>
+                <p>O Método Aura Master pode ajudar você, pessoas da sua família e amigos a:</p>
                 <ListWrapper>
                     <List>
                         <li>Enfrentar os medos</li>
@@ -184,37 +219,29 @@ function AuraMaster () {
                         <li>Acabar com gripes ou resfriados recorrentes</li>
                     </List>
                 </ListWrapper>
-                <BoxWrapper>
-                    <h3>Promoção Black Dezembro!</h3>
-                    <BoxPromotion>
-                        <TitlePromotion>Desconto Progressivo:<br />
-                        Quanto mais sessões, mais desconto!<br />
-                        A Promoção irá até o dia 31 de Dezembro. Aproveite!</TitlePromotion>
-                        <TextPromotion>
-                            <span className="description"><ArrowIcon icon={faArrowRight} /> 1 sessão com 10% de desconto:</span>
-                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 137,70</span><br />
-                            <span className="description"><ArrowIcon icon={faArrowRight} /> 4 sessões com 20% de desconto:</span>
-                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 489,60</span><br />
-                            <span className="description"><ArrowIcon icon={faArrowRight} /> 8 sessões com 30% de desconto:</span>
-                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 856,80</span><br />
-                            <span className="description"><ArrowIcon icon={faArrowRight} /> 12 sessões com 40% de desconto:</span>
-                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 1.101,60</span>
-                        </TextPromotion>
-                    </BoxPromotion>
-                </BoxWrapper>
+                <h3>Como funciona o Aura Master?</h3>
+                <p>Quando a técnica terapêutica Aura Master é aplicada, ela vai direto ao inconsciente e faz a limpeza que precisa fazer. Ela edita a sua memória e apaga aquilo que está ali só para te fazer mal. Tudo o que hoje tem uma trava na sua vida pode ter uma relação com alguma coisa que você carrega, não faz parte de você e precisa abrir espaço para dar lugar a sua essência.</p>
+
+                <p>O método Aura Master funciona por meio de 4 estruturas, em cada uma delas você realiza um processo para atingir os seguintes objetivos:</p>
+                <Structures>
+                    <p><b>1. Coluna de Luz:</b> Aumentar a energia vital e fazer com que ela circule pelo corpo, elevando a frequência do campo áurico.</p>
+                    <p><b>2. Permissão:</b> Alinhar e deixar corpo e mente em harmonia.</p>
+                    <p><b>3. Ação:</b> Aplicar um dos Fluxos do Aura Master de acordo com a necessidade no momento presente.</p>
+                    <p><b>4. A Grande Conciliação:</b> Selar e acolher o processo de cura e transformação.</p>
+                </Structures>
                 <BoxWrapper>
                     <h3>Agendamento</h3>
                     <Box>
                         <p><b>Informações sobre o atendimento:</b></p>
                         <p>O atendimento dura entre 1h e 1h30min.</p>
                         <p>No horário marcado nos conectamos pelo Google Meet, para nos conhecermos e trabalharmos o melhor tratamento para você.<br />
-                        O Link será enviado junto com a confirmação do seu agendamento.<br />
+                        O Link do Google Meet será enviado junto com a confirmação do seu agendamento.<br />
                         Em caso de dúvida sobre o link ou sobre o Google Meet é só entrar em contato comigo pelo <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
                         <p>Reserve esse momento para você, certifique-se de que não será interrompida(o).</p>
                         <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
                         
                         <Icon icon={faEllipsis} />
-                        <p><b>Formas de pagamento</b></p>
+                        <p><b>Formas de pagamento:</b></p>
                         <p><b>PIX:</b> alineabp@gmail.com</p>
                         <p><b>PayPal (Para pagamentos internacionais):</b> alineabp@gmail.com</p>
                         <p><b>Cartão de Crédito/Parcelamento (Links para o Mercado Pago):</b><br />

@@ -122,7 +122,7 @@ const TextPromotion = styled.div`
 
 const Small = styled.div`
     font-size: 14px;
-    margin-top:30px;
+    margin:30px 0 20px;
     color: #bd0003;
 `
 
@@ -158,6 +158,7 @@ function AuraMaster () {
                             <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 1.101,60</span>
                         </TextPromotion>
                         <Small>Valores válidos para pagamentos até 31 de Dezembro.</Small>
+                        <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </BoxPromotion>
                 </BoxWrapper>
                 <h2>Aura Master: O que é, para que serve e como funciona</h2>

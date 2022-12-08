@@ -118,11 +118,11 @@ const TextPromotion = styled.div`
     display: flex;
     flex-direction: column;
     align-items: start;
+    padding-bottom: 30px;
 `
 
-const Small = styled.div`
-    font-size: 14px;
-    margin:30px 0 20px;
+const FootNote = styled.p`
+    padding:0 0 20px;
     color: #bd0003;
 `
 
@@ -157,7 +157,8 @@ function AuraMaster () {
                             <span className="description"><ArrowIcon icon={faArrowRight} /> 12 sessões com 40% de desconto:</span>
                             <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 1.101,60</span>
                         </TextPromotion>
-                        <Small>Valores válidos para pagamentos até 31 de Dezembro.</Small>
+                        <FootNote><a href="#agendamento">Veja sobre agendamento, atendimento e formas de pagamento clicando aqui.</a></FootNote>
+                        <FootNote>Valores válidos para pagamentos até 31 de Dezembro.</FootNote>
                         <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </BoxPromotion>
                 </BoxWrapper>
@@ -224,7 +225,7 @@ function AuraMaster () {
                 <p>Quando a técnica terapêutica Aura Master é aplicada, ela vai direto ao inconsciente e faz a limpeza que precisa fazer. Ela edita a sua memória e apaga aquilo que está ali só para te fazer mal. Tudo o que hoje tem uma trava na sua vida pode ter uma relação com alguma coisa que você carrega, não faz parte de você e precisa abrir espaço para dar lugar a sua essência.</p>
 
                 <p>O método Aura Master funciona por meio de 4 estruturas, em cada uma delas você realiza um processo para atingir os seguintes objetivos:</p>
-                <Structures>
+                <Structures id="agendamento">
                     <p><b>1. Coluna de Luz:</b> Aumentar a energia vital e fazer com que ela circule pelo corpo, elevando a frequência do campo áurico.</p>
                     <p><b>2. Permissão:</b> Alinhar e deixar corpo e mente em harmonia.</p>
                     <p><b>3. Ação:</b> Aplicar um dos Fluxos do Aura Master de acordo com a necessidade no momento presente.</p>

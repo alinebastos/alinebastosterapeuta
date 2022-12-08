@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight, faEllipsis } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRight, faEllipsis, faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
 
 const Header = styled.div`
     max-width: 1920px;
@@ -54,7 +54,7 @@ const List = styled.ul`
 const BoxWrapper = styled.div`
     @media screen and (min-width: 767px) {
         width: 70%;
-        margin 0 auto;
+        margin 0 auto 30px;
     }
 `
 
@@ -136,7 +136,7 @@ const Structures = styled.div`
 function AuraMaster () {
     return (
         <>
-            <Header>       
+            <Header id="up">       
                 <h1>Aura Master</h1>
             </Header>
             <Main>
@@ -260,6 +260,7 @@ function AuraMaster () {
                         <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </Box>
                 </BoxWrapper>
+                <a href="#up"><Icon icon={faCircleArrowUp} /></a>
             </Main>
         </>
     );

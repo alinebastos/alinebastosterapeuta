@@ -246,10 +246,10 @@ function AuraMaster () {
                         <p><b>PIX:</b> alineabp@gmail.com</p>
                         <p><b>PayPal (Para pagamentos internacionais):</b> alineabp@gmail.com</p>
                         <p><b>Cartão de Crédito/Parcelamento (Links para o Mercado Pago):</b><br />
-                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1EPZBmM" target="_blank" rel="noreferrer" >1 sessão</a><br />
-                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/2jMfVCL" target="_blank" rel="noreferrer" >4 sessões</a><br />
-                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1Va4Qbs" target="_blank" rel="noreferrer" >8 sessões</a><br />
-                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1TmfUfN" target="_blank" rel="noreferrer" >12 sessões</a></p>
+                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1EPZBmM" target="_blank" rel="noreferrer" >1 sessão</a> - R$ 137,70<br />
+                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/2jMfVCL" target="_blank" rel="noreferrer" >4 sessões</a> - R$ 489,60<br />
+                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1Va4Qbs" target="_blank" rel="noreferrer" >8 sessões</a> - R$ 856,80<br />
+                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1TmfUfN" target="_blank" rel="noreferrer" >12 sessões</a> - R$ 1.101,60</p>
                         <p><b>TED/DOC:</b><br />
                         Aline Bastos Pinto<br />
                         Banco: Nubank - 0260<br />

@@ -157,7 +157,7 @@ function AuraMaster () {
                             <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 1.101,60</span>
                         </TextPromotion>
                         <FootNote>** Valores válidos para pagamentos até 31 de Dezembro. **</FootNote>
-                        <FootNote><a href="#agendamento">Veja sobre agendamento, atendimento e formas de pagamento clicando aqui.</a></FootNote>
+                        <FootNote>Veja sobre agendamento, atendimento e formas de pagamento <a href="#agendamento">clicando aqui.</a></FootNote>
                         <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </BoxPromotion>
                 </BoxWrapper>

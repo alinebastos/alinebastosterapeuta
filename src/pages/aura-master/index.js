@@ -124,6 +124,10 @@ const TextPromotion = styled.div`
 const FootNote = styled.p`
     padding:0 0 20px;
     color: #bd0003;
+
+    a {
+        text-decoration: underline;
+    }
 `
 
 const Structures = styled.div`

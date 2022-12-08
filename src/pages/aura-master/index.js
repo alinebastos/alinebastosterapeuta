@@ -123,11 +123,6 @@ const TextPromotion = styled.div`
 
 const FootNote = styled.p`
     padding:0 0 20px;
-    color: #bd0003;
-
-    a {
-        text-decoration: underline;
-    }
 `
 
 const Structures = styled.div`
@@ -161,8 +156,8 @@ function AuraMaster () {
                             <span className="description"><ArrowIcon icon={faArrowRight} /> 12 sessões com 40% de desconto:</span>
                             <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 1.101,60</span>
                         </TextPromotion>
+                        <FootNote>** Valores válidos para pagamentos até 31 de Dezembro. **</FootNote>
                         <FootNote><a href="#agendamento">Veja sobre agendamento, atendimento e formas de pagamento clicando aqui.</a></FootNote>
-                        <FootNote>Valores válidos para pagamentos até 31 de Dezembro.</FootNote>
                         <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </BoxPromotion>
                 </BoxWrapper>

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRight, faEllipsis, faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
 
 const Header = styled.div`
     max-width: 1920px;
@@ -96,43 +96,6 @@ const Icon = styled(FontAwesomeIcon)`
     color: #bd0003;
 `
 
-const ArrowIcon = styled(FontAwesomeIcon)`
-    color: #bd0003;
-    margin-right: 5px;
-`
-
-const BoxPromotion = styled(Box)`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 600;
-`
-
-const TitlePromotion = styled.h3`
-    margin-top: 0;
-    line-height: 2;
-    text-align: center;
-`
-
-const TextPromotion = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    padding-bottom: 30px;
-`
-
-const FootNote = styled.p`
-    padding:0 0 20px;
-`
-
-const Structures = styled.div`
-    color: #bd0003;
-
-    b {
-        font-weight: 600;
-    }
-`
-
 function AuraMaster () {
     return (
         <>
@@ -140,27 +103,6 @@ function AuraMaster () {
                 <h1>Aura Master</h1>
             </Header>
             <Main>
-                <BoxWrapper>
-                    <h2>Promoção Black Dezembro!</h2>
-                    <BoxPromotion>
-                        <TitlePromotion>Descontos Progressivos:<br />
-                        Quanto mais sessões, mais desconto!<br />
-                        A Promoção irá até o dia 31 de Dezembro. Aproveite!</TitlePromotion>
-                        <TextPromotion>
-                            <span className="description"><ArrowIcon icon={faArrowRight} /> 1 sessão com 10% de desconto:</span>
-                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 137,70</span><br />
-                            <span className="description"><ArrowIcon icon={faArrowRight} /> 4 sessões com 20% de desconto:</span>
-                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 489,60</span><br />
-                            <span className="description"><ArrowIcon icon={faArrowRight} /> 8 sessões com 30% de desconto:</span>
-                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 856,80</span><br />
-                            <span className="description"><ArrowIcon icon={faArrowRight} /> 12 sessões com 40% de desconto:</span>
-                            <span className="value">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R$ 1.101,60</span>
-                        </TextPromotion>
-                        <FootNote>** Valores válidos para pagamentos até 31 de Dezembro. **</FootNote>
-                        <FootNote>Veja sobre agendamento, atendimento e formas de pagamento <a href="#agendamento">clicando aqui.</a></FootNote>
-                        <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
-                    </BoxPromotion>
-                </BoxWrapper>
                 <h2>Aura Master: O que é, para que serve e como funciona</h2>
                 <p>Já pensou como seria bom se você pudesse resolver aquelas dores emocionais como: ansiedade, medo, traumas, depressão, mágoas, desânimo, vazio na alma e todos os bloqueios psicológicos que fazem você se sentir incompreendido e insatisfeito com a vida?</p>
                 <p>Ainda mais se você conseguisse fazer isso de forma rápida e simples, sem precisar de métodos ultrapassados, demorados e caros, não é mesmo?</p>
@@ -182,11 +124,11 @@ function AuraMaster () {
                         <li>Destravar a prosperidade e gerar riqueza</li>
                         <li>Ter soluções instantâneas para problemas difíceis</li>
                         <li>Elevar a vibração e energia vital de forma imediata</li>
-                        <li>Curar relacionamentos e aproximar pessoas certas</li>
+                        <li>Curar relacionamentos</li>
                         <li>Aumentar a autoestima</li>
                         <li>Mudar de carreira de forma equilibrada</li>
-                        <li>Curar fobias</li>
-                        <li>Curar depressão, crises de ansiedade e síndrome do pânico</li>
+                        <li>Tratar fobias</li>
+                        <li>Tratar depressão, crises de ansiedade e síndrome do pânico</li>
                         <li>Vencer o medo de falar em público</li>
                         <li>Perder a timidez</li>
                         <li>Superar o sentimento de rejeição</li>
@@ -196,7 +138,6 @@ function AuraMaster () {
                         <li>Acabar com a preguiça e a procrastinação</li>
                         <li>Superar separação conjugal com harmonia</li>
                         <li>Resolver conflitos familiares entre pais, filhos e cônjuges</li>
-                        <li>Despertar a criatividade</li>
                     </List>
                     <List>
                         <li>Eliminar pensamentos negativos repetitivos e autodestrutivos</li>
@@ -209,10 +150,9 @@ function AuraMaster () {
                         <li>Eliminar a rejeição, o vazio existencial, a injustiça e a mágoa</li>
                         <li>Acabar com a vergonha e a fragilidade emocional</li>
                         <li>Acabar com o medo de ser líder e com o medo do sucesso</li>
-                        <li>Receber inspirações do inconsciente diariamente</li>
                         <li>Despertar a criatividade e a inovação</li>
                         <li>Curar ou aliviar crises alérgicas</li>
-                        <li>Curar desvios de humor e crises de raiva</li>
+                        <li>Tratar desvios de humor e crises de raiva</li>
                         <li>Curar vícios</li>
                         <li>Curar ou aliviar dores em geral</li>
                         <li>Conseguir o peso desejado</li>
@@ -220,16 +160,6 @@ function AuraMaster () {
                         <li>Acabar com gripes ou resfriados recorrentes</li>
                     </List>
                 </ListWrapper>
-                <h3>Como funciona o Aura Master?</h3>
-                <p>Quando a técnica terapêutica Aura Master é aplicada, ela vai direto ao inconsciente e faz a limpeza que precisa fazer. Ela edita a sua memória e apaga aquilo que está ali só para te fazer mal. Tudo o que hoje tem uma trava na sua vida pode ter uma relação com alguma coisa que você carrega, não faz parte de você e precisa abrir espaço para dar lugar a sua essência.</p>
-
-                <p>O método Aura Master funciona por meio de 4 estruturas, em cada uma delas você realiza um processo para atingir os seguintes objetivos:</p>
-                <Structures id="agendamento">
-                    <p><b>1. Coluna de Luz:</b> Aumentar a energia vital e fazer com que ela circule pelo corpo, elevando a frequência do campo áurico.</p>
-                    <p><b>2. Permissão:</b> Alinhar e deixar corpo e mente em harmonia.</p>
-                    <p><b>3. Ação:</b> Aplicar um dos Fluxos do Aura Master de acordo com a necessidade no momento presente.</p>
-                    <p><b>4. A Grande Conciliação:</b> Selar e acolher o processo de cura e transformação.</p>
-                </Structures>
                 <BoxWrapper>
                     <h3>Agendamento</h3>
                     <Box>
@@ -239,17 +169,14 @@ function AuraMaster () {
                         O Link do Google Meet será enviado junto com a confirmação do seu agendamento.<br />
                         Em caso de dúvida sobre o link ou sobre o Google Meet é só entrar em contato comigo pelo <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
                         <p>Reserve esse momento para você, certifique-se de que não será interrompida(o).</p>
-                        <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!!</b></p>
+                        <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!</b></p>
                         
                         <Icon icon={faEllipsis} />
-                        <p><b>Formas de pagamento:</b></p>
+                        <p><b>Valor da Sessão:</b> R$ 125,00</p>
+                        <p><b><u>Formas de pagamento</u></b></p>
                         <p><b>PIX:</b> alineabp@gmail.com</p>
                         <p><b>PayPal (Para pagamentos internacionais):</b> alineabp@gmail.com</p>
-                        <p><b>Cartão de Crédito/Parcelamento (Links para o Mercado Pago):</b><br />
-                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1EPZBmM" target="_blank" rel="noreferrer" >1 sessão</a> - R$ 137,70<br />
-                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/2jMfVCL" target="_blank" rel="noreferrer" >4 sessões</a> - R$ 489,60<br />
-                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1Va4Qbs" target="_blank" rel="noreferrer" >8 sessões</a> - R$ 856,80<br />
-                        <ArrowIcon icon={faArrowRight} /> <a href="https://mpago.la/1TmfUfN" target="_blank" rel="noreferrer" >12 sessões</a> - R$ 1.101,60</p>
+                        <p><b>Cartão de Crédito/Parcelamento:</b> <a href="https://mpago.la/1sdBm46" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a><br /></p>
                         <p><b>TED/DOC:</b><br />
                         Aline Bastos Pinto<br />
                         Banco: Nubank - 0260<br />
@@ -260,7 +187,6 @@ function AuraMaster () {
                         <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </Box>
                 </BoxWrapper>
-                <a href="#up"><Icon icon={faCircleArrowUp} /></a>
             </Main>
         </>
     );

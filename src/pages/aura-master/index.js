@@ -96,6 +96,10 @@ const Icon = styled(FontAwesomeIcon)`
     color: #bd0003;
 `
 
+const Description = styled.div`
+    text-align: center;
+`
+
 function AuraMaster () {
     return (
         <>
@@ -103,21 +107,17 @@ function AuraMaster () {
                 <h1>Aura Master</h1>
             </Header>
             <Main>
-                <h2>Aura Master: O que é, para que serve e como funciona</h2>
-                <p>Já pensou como seria bom se você pudesse resolver aquelas dores emocionais como: ansiedade, medo, traumas, depressão, mágoas, desânimo, vazio na alma e todos os bloqueios psicológicos que fazem você se sentir incompreendido e insatisfeito com a vida?</p>
-                <p>Ainda mais se você conseguisse fazer isso de forma rápida e simples, sem precisar de métodos ultrapassados, demorados e caros, não é mesmo?</p>
-                <p>Desde que foi criado e difundido o Método Aura Master por Bruno Gimenes e Patrícia Cândido, isso é possível. Entenda o que é, para que serve e como funciona o Aura Master.</p>
-                <h3>O que é Aura Master?</h3>
-                <p>No mundo de hoje, onde o medo, a depressão, a angústia, as crises de ansiedade e os pensamentos suicidas assombram a humanidade, não podemos esperar por tratamentos terapêuticos longos e demorados, precisamos de soluções rápidas.</p>
-                <p>Nesse sentido, o Aura Master é o que faltava para o alívio imediato das dores do corpo e da alma, em pessoas e animais, de uma forma absurdamente simples e sem a necessidade de recursos especiais e nem de remédios.</p>
-                <p>O Aura Master é uma técnica terapêutica de ação rápida, que ativa os poderes ocultos de autocura, realizando mudanças no seu estado emocional, mental e espiritual.</p>
-                <p>Só para ilustrar, imagine uma lâmpada coberta por poeira e fuligem. Ela jamais vai propagar toda a luz que está dentro dela, porque a sujeira ofusca quem ela é e a impede de expandir, muda até a sua força e a sua cor.</p>
-                <p>O mesmo acontece quando somos manipulados por padrões, que a sociedade nos impõe, e acabamos vivendo um personagem. Enquanto a Aura Master vem para desfazer essas camadas que nos escondem e proporcionar o encontro com o “Eu da Alma” ou “Eu da Matriz Divina”.</p>
-                <h3>Como funciona o Aura Master?</h3>
-                <p>Quando a técnica terapêutica Aura Master é aplicada, ela vai direto ao inconsciente e faz a limpeza que precisa fazer. Ela edita a sua memória e apaga aquilo que está ali só para te fazer mal. Tudo o que hoje tem uma trava na sua vida pode ter uma relação com alguma coisa que você carrega, não faz parte de você e precisa abrir espaço para dar lugar a sua essência. </p>
-                <h3>Para que serve o Aura Master?</h3>
-                <p>O Método Aura Master serve para que você possa encontrar respostas, resolver traumas que carrega desde a infância. Você pode limpar uma culpa de anos por meio dessa técnica de alívio imediato.</p>
-                <p>O Método Aura Master pode ajudar você, pessoas da sua família e amigos a:</p>
+                <Description>
+                    <h2>O que é Aura Master?</h2>
+                    <p>Aura Master é uma Técnica de Alívio Imediato!</p>
+
+                    <p>Quando a técnica terapêutica Aura Master é aplicada, ela vai direto ao inconsciente e faz a limpeza que precisa fazer.</p>
+
+                    <p>Ela edita a sua memória e apaga aquilo que está ali só para te fazer mal.</p>
+
+                    <p>Tudo o que hoje tem uma trava na sua vida pode ter uma relação com alguma coisa que você carrega, não faz parte de você e precisa abrir espaço para dar lugar à sua essência.</p>
+                    <p>O Método Aura Master pode ajudar você, pessoas da sua família e amigos a:</p><br />
+                </Description>
                 <ListWrapper>
                     <List>
                         <li>Enfrentar os medos</li>
@@ -172,16 +172,11 @@ function AuraMaster () {
                         <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!</b></p>
                         
                         <Icon icon={faEllipsis} />
-                        <p><b>Valor da Sessão:</b> R$ 125,00</p>
+                        <p><b>Valor Promocional da Sessão:</b> R$ 95,00</p>
                         <p><b><u>Formas de pagamento</u></b></p>
                         <p><b>PIX:</b> alineabp@gmail.com</p>
                         <p><b>PayPal (Para pagamentos internacionais):</b> alineabp@gmail.com</p>
-                        <p><b>Cartão de Crédito/Parcelamento:</b> <a href="https://mpago.la/1sdBm46" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a><br /></p>
-                        <p><b>TED/DOC:</b><br />
-                        Aline Bastos Pinto<br />
-                        Banco: Nubank - 0260<br />
-                        Agência: 0001<br />
-                        Conta: 85967030-2</p>
+                        <p><b>Cartão de Crédito/Parcelamento:</b> <a href="https://mpago.la/2aimjNV" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a><br /></p>
                         <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
 
                         <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>

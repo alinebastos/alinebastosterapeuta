@@ -103,30 +103,35 @@ const Icon = styled(FontAwesomeIcon)`
 
 const Description = styled.div`
     text-align: center;
+    
+    @media screen and (min-width: 767px) {
+        width: 70%;
+        margin 0 auto;
+    }
 `
 
 const Testimonies = styled.div`
-display: flex;
-justify-content: center;
-column-gap: 30px;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    flex-wrap: wrap;
 `
 
 const Testimony = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 100%;
-margin-bottom: 40px;
-font-weight: 600;
-
-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-}
+    margin-bottom: 40px;
+    font-weight: 600;
 
-@media screen and (min-width: 540px) {
-    width: 500px;
-}
+    img {
+        width: 100%;
+    }
+
+    @media screen and (min-width: 540px) {
+        width: 500px;
+    }
 `
 
 function AuraMaster () {
@@ -138,7 +143,7 @@ function AuraMaster () {
             <Main>
                 <Description>
                     <h2>O que é Aura Master?</h2>
-                    <p>Aura Master é uma Técnica de Alívio Imediato!</p>
+                    <h3>Aura Master é uma Técnica de Alívio Imediato!</h3>
 
                     <p>Quando a técnica terapêutica Aura Master é aplicada, ela vai direto ao inconsciente e faz a limpeza que precisa fazer.</p>
 

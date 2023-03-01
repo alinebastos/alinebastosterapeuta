@@ -105,7 +105,7 @@ const Description = styled.div`
     text-align: center;
     
     @media screen and (min-width: 767px) {
-        width: 70%;
+        width: 90%;
         margin 0 auto;
     }
 `
@@ -142,15 +142,17 @@ function AuraMaster () {
             </Header>
             <Main>
                 <Description>
-                    <h2>O que é Aura Master?</h2>
-                    <h3>Aura Master é uma Técnica de Alívio Imediato!</h3>
+                    <h2>Aura Master é uma Técnica de Alívio Imediato!</h2>
 
-                    <p>Quando a técnica terapêutica Aura Master é aplicada, ela vai direto ao inconsciente e faz a limpeza que precisa fazer.</p>
+                    <p>Se você está procurando uma solução imediata para aliviar suas dores emocionais e não quer esperar por tratamentos terapêuticos longos e demorados, Aura Master pode ser a solução que você precisa.</p>
 
-                    <p>Ela edita a sua memória e apaga aquilo que está ali só para te fazer mal.</p>
+                    <p>Com a Aura Master, você pode finalmente encontrar a paz interior e superar seus medos, traumas, desvios de humor, vícios e outros problemas emocionais que estão afetando sua qualidade de vida. A técnica atua no inconsciente, reprogramando o que está travando sua vida, proporcionando um alívio imediato.</p>
 
-                    <p>Tudo o que hoje tem uma trava na sua vida pode ter uma relação com alguma coisa que você carrega, não faz parte de você e precisa abrir espaço para dar lugar à sua essência.</p>
-                    <p>O Método Aura Master pode ajudar você, pessoas da sua família e amigos a:</p><br />
+                    <p>Com apenas algumas sessões, você pode superar crises de ansiedade, síndrome do pânico, burnout, depressão, medos, traumas, desvios de humor, vícios, baixa autoestima, pensamentos negativos repetitivos e autodestrutivos e outras dores emocionais que estão atrapalhando seu dia a dia.</p>
+
+                    <p>Não há necessidade de sofrer sozinho. Agende uma sessão de Aura Master hoje mesmo e comece a sentir a diferença imediatamente. Não permita que seus problemas emocionais continuem controlando sua vida. Tome o controle hoje e dê o primeiro passo em direção a uma vida mais feliz e saudável.</p>
+                    <br />
+                    <p><b>O Método Aura Master pode ajudar você, pessoas da sua família e amigos a:</b></p><br />
                 </Description>
                 <ListWrapper>
                     <List>
@@ -206,11 +208,11 @@ function AuraMaster () {
                         <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!</b></p>
                         
                         <Icon icon={faEllipsis} />
-                        <p><b>Valor Promocional da Sessão:</b> R$ 95,00</p>
+                        <p><b>Valor da Sessão:</b> R$ 150,00</p>
                         <p><b><u>Formas de pagamento</u></b></p>
                         <p><b>PIX:</b> alineabp@gmail.com</p>
                         <p><b>PayPal (Para pagamentos internacionais):</b> alineabp@gmail.com</p>
-                        <p><b>Cartão de Crédito/Parcelamento:</b> <a href="https://mpago.la/2aimjNV" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a><br /></p>
+                        <p><b>Cartão de Crédito/Parcelamento:</b> <a href="https://mpago.la/2CVr9Qv" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a><br /></p>
                         <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
 
                         <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>

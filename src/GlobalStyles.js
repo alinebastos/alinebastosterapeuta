@@ -7,7 +7,7 @@ const GlobalStyles = createGlobalStyle`
     body {
         font-family: 'Poppins', sans-serif;
         font-size: 16px;
-        color: #404040;
+        color: #504F4F;
         line-height: 24px;
         font-weight: 400;
         margin: 0;        
@@ -22,7 +22,7 @@ const GlobalStyles = createGlobalStyle`
         outline: none;
     }
     h1, h2, h3, h4, h5, h6 {
-        color: #bd0003;
+        color: #9A158E;
         margin: 0;
         font-weight: 600;
     }
@@ -59,7 +59,7 @@ const GlobalStyles = createGlobalStyle`
         transition: all 0.5s ease 0s;
         text-decoration: none;
         outline: none;
-        color: #bd0003;        
+        color: #9A158E;        
     }
     a {
         font-weight: 600;

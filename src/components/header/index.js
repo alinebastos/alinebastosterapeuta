@@ -1,7 +1,7 @@
 //import { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
-import SiteLogo from './images/AlineBastosBlack2.png';
+import SiteLogo from './images/AlineBastosBlack4.png';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import SocialIcons from '../social-icons'
@@ -78,7 +78,7 @@ const LogoImg = styled.img`
 
 const Icon = styled(FontAwesomeIcon)`
     font-size: 24px;
-    color: #bd0003;
+    color: #9A158E;
 `
 
 const NavWrapper = styled.div`
@@ -109,7 +109,7 @@ const Nav = styled.nav`
                 flex-direction: column;
     
                 li {
-                    border-bottom: 1px solid #bd0003;
+                    border-bottom: 1px solid #9A158E;
     
                     &:last-of-type {
                         border: none;
@@ -161,7 +161,7 @@ const MenuLink = styled(NavLink)`
     padding: 0 20px;
 
     &.active {
-        color: #bd0003;
+        color: #9A158E;
     }
 
     &:hover img,

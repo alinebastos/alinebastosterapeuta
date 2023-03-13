@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
-import Depoimento01 from './depoimentos/Depoimento01.png';
-import Depoimento02 from './depoimentos/Depoimento02.png';
-import Depoimento03 from './depoimentos/Depoimento03.png';
-import Depoimento04 from './depoimentos/Depoimento04.png';
-import Depoimento05 from './depoimentos/Depoimento05.png';
+import Depoimento01 from './depoimentos/Depoimento1.png';
+import Depoimento02 from './depoimentos/Depoimento2.png';
+import Depoimento03 from './depoimentos/Depoimento3.png';
+import Depoimento04 from './depoimentos/Depoimento4.png';
+import Depoimento05 from './depoimentos/Depoimento5.png';
 
 const Header = styled.div`
     max-width: 1920px;
@@ -22,7 +22,7 @@ const Header = styled.div`
     align-items: center;
 
     &::before {
-        background: rgba(74.1, 0, 1.1, 0.60) none repeat scroll 0 0;
+        background: rgb(154, 21, 142,0.4) none repeat scroll 0 0;
         content: "";
         height: 100%;
         left: 0;
@@ -51,7 +51,7 @@ const ListWrapper = styled.div`
 const List = styled.ul`
     li {
         padding-left: 28px;
-        background: url('red-check.png') no-repeat center left;
+        background: url('purple-check.png') no-repeat center left;
         font-size: 15px;
     }
 `
@@ -65,7 +65,7 @@ const BoxWrapper = styled.div`
 
 const Box = styled.div`
     padding: 20px;
-    border: 1px solid #bd0003;
+    border: 1px solid #9A158E;
     border-radius: 5px;
     background-color: #fff;
 `
@@ -75,7 +75,7 @@ const ButtonLink = styled.a`
     width:200px;
     height:50px;
     border-radius: 5px;
-    background-color: #bd0003;
+    background-color: #9A158E;
     color: #fff;
     text-align: center;
     line-height: 50px;
@@ -83,7 +83,7 @@ const ButtonLink = styled.a`
 
     &:hover {
         color: #fff;
-        background-color: #790103;
+        background-color: #5e425d;
     }
 
     &.disabled {
@@ -98,7 +98,7 @@ const Icon = styled(FontAwesomeIcon)`
     font-size: 40px;
     margin: 10px auto 30px;
     display: block;
-    color: #bd0003;
+    color: #9A158E;
 `
 
 const Description = styled.div`
@@ -144,15 +144,14 @@ function AuraMaster () {
                 <Description>
                     <h2>Aura Master é uma Técnica de Alívio Imediato!</h2>
 
-                    <p>Se você está procurando uma solução imediata para aliviar suas dores emocionais e não quer esperar por tratamentos terapêuticos longos e demorados, Aura Master pode ser a solução que você precisa.</p>
+                    <p>Se você chegou até aqui, provavelmente está sofrendo de algum tipo de dor emocional. Talvez seja a ansiedade que o impede de dormir à noite ou executar suas tarefas diárias, ou a depressão que o impede de desfrutar das coisas que costumava amar. Talvez você tenha sido vítima de um trauma no passado, que continua a assombrá-lo no presente. Seja qual for a sua dor, eu posso ajudá-lo.</p>
 
-                    <p>Com a Aura Master, você pode finalmente encontrar a paz interior e superar seus medos, traumas, desvios de humor, vícios e outros problemas emocionais que estão afetando sua qualidade de vida. A técnica atua no inconsciente, reprogramando o que está travando sua vida, proporcionando um alívio imediato.</p>
+                    <p>Como uma profissional de Aura Master, ofereço uma técnica poderosa que pode aliviar seus sintomas em poucas sessões. Ao contrário de outras formas de tratamento, Aura Master atua diretamente no inconsciente, reprogramando padrões de pensamento negativos e autodestrutivos que impedem você de viver plenamente. Em poucas sessões, você pode experimentar alívio imediato e duradouro.</p>
 
-                    <p>Com apenas algumas sessões, você pode superar crises de ansiedade, síndrome do pânico, burnout, depressão, medos, traumas, desvios de humor, vícios, baixa autoestima, pensamentos negativos repetitivos e autodestrutivos e outras dores emocionais que estão atrapalhando seu dia a dia.</p>
+                    <p>Talvez você esteja hesitante em agendar uma sessão comigo. Talvez você tenha tentado outras formas de tratamento no passado, sem sucesso. Talvez você esteja preocupado com o custo ou com o tempo que precisará investir. Mas eu quero que você saiba que Aura Master é diferente. Não é apenas eficaz, é também eficiente. Em poucas sessões, você pode experimentar resultados significativos, o que significa que você pode economizar tempo e dinheiro a longo prazo.</p>
 
-                    <p>Não há necessidade de sofrer sozinho. Agende uma sessão de Aura Master hoje mesmo e comece a sentir a diferença imediatamente. Não permita que seus problemas emocionais continuem controlando sua vida. Tome o controle hoje e dê o primeiro passo em direção a uma vida mais feliz e saudável.</p>
-                    <br />
-                    <p><b>O Método Aura Master pode ajudar você, pessoas da sua família e amigos a:</b></p><br />
+                    <p>Não deixe que a dor emocional controle sua vida por mais tempo. Agende uma sessão de Aura Master comigo hoje e comece sua jornada em direção ao alívio e à cura. Você merece se sentir feliz, saudável e pleno. Eu estou aqui para ajudá-lo a alcançar isso.</p>
+                    <h3>O Método Aura Master também pode ajudar você, pessoas da sua família e amigos a:</h3><br />
                 </Description>
                 <ListWrapper>
                     <List>

@@ -243,7 +243,7 @@ function AuraMaster () {
                     <img src={Depoimento01} alt="Depoimento" />
                 </Testimony>
                 <Testimony>
-                    <p>11 de Janeiro de 2023</p>
+                    <p>19 de Dezembro de 2022</p>
                     <img src={Depoimento} alt="Depoimento" />
                 </Testimony>
             </Testimonies>

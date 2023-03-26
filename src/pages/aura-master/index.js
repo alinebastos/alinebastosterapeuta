@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
-import Depoimento01 from './depoimentos/Depoimento1.png';
-import Depoimento02 from './depoimentos/Depoimento2.png';
-import Depoimento03 from './depoimentos/Depoimento3.png';
-import Depoimento04 from './depoimentos/Depoimento4.png';
-import Depoimento05 from './depoimentos/Depoimento5.png';
-import Depoimento from './depoimentos/Depoimento.png';
+import Depoimento01 from './depoimentos/depoimento01.png';
+import Depoimento02 from './depoimentos/depoimento02.png';
+import Depoimento03 from './depoimentos/depoimento03.png';
+import Depoimento04 from './depoimentos/depoimento04.png';
+import Depoimento05 from './depoimentos/depoimento05.png';
+import Depoimento06 from './depoimentos/depoimento06.png';
 
 const Header = styled.div`
     max-width: 1920px;
@@ -224,27 +224,27 @@ function AuraMaster () {
             <Testimonies>
                 <Testimony>
                     <p>16 de Fevereiro de 2023</p>
-                    <img src={Depoimento05} alt="Depoimento" />
+                    <img src={Depoimento06} alt="Depoimento" />
                 </Testimony>
                 <Testimony>
                     <p>11 de Fevereiro de 2023</p>
-                    <img src={Depoimento04} alt="Depoimento" />
+                    <img src={Depoimento05} alt="Depoimento" />
                 </Testimony>
                 <Testimony>
                     <p>22 de Janeiro de 2023</p>
-                    <img src={Depoimento03} alt="Depoimento" />
+                    <img src={Depoimento04} alt="Depoimento" />
                 </Testimony>
                 <Testimony>
                     <p>19 de Janeiro de 2023</p>
-                    <img src={Depoimento02} alt="Depoimento" />
+                    <img src={Depoimento03} alt="Depoimento" />
                 </Testimony>
                 <Testimony>
                     <p>11 de Janeiro de 2023</p>
-                    <img src={Depoimento01} alt="Depoimento" />
+                    <img src={Depoimento02} alt="Depoimento" />
                 </Testimony>
                 <Testimony>
                     <p>19 de Dezembro de 2022</p>
-                    <img src={Depoimento} alt="Depoimento" />
+                    <img src={Depoimento01} alt="Depoimento" />
                 </Testimony>
             </Testimonies>
         </>

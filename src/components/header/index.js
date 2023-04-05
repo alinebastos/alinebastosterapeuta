@@ -1,7 +1,7 @@
 //import { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
-import SiteLogo from './images/AlineBastosBlack4.png';
+import SiteLogo from './images/AlineBastosLogo.png';
 //import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 //import { faBars, faClose } from '@fortawesome/free-solid-svg-icons';
 import SocialIcons from '../social-icons'

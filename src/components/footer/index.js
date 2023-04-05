@@ -1,10 +1,10 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
-import SiteLogo from './images/AlineBastosWhite4.png';
+import SiteLogo from './images/AlineBastosLogo.png';
 import SocialIcons from '../social-icons';
 
 const HeaderWrapper = styled.footer`
-    background-color: #aaaaaa;
+    background-color: #dddddd;
     width: 100%;
     margin-top:50px;
 
@@ -85,7 +85,7 @@ const Social = styled.div`
         span {
             display: block;
             font-weight: 600;
-            color: #fff;
+            color: #504F4F;
             margin: 0 20px 0 50px;
         }
     }    

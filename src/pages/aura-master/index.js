@@ -7,6 +7,7 @@ import Depoimento03 from './depoimentos/depoimento03.png';
 import Depoimento04 from './depoimentos/depoimento04.png';
 import Depoimento05 from './depoimentos/depoimento05.png';
 import Depoimento06 from './depoimentos/depoimento06.png';
+import Depoimento07 from './depoimentos/depoimento07.png';
 
 const Header = styled.div`
     max-width: 1920px;
@@ -222,6 +223,10 @@ function AuraMaster () {
             <Icon icon={faEllipsis} />
             <h2>Depoimentos de alguns clientes:</h2>
             <Testimonies>
+                <Testimony>
+                    <p>05 de Abril de 2023</p>
+                    <img src={Depoimento07} alt="Depoimento" />
+                </Testimony>
                 <Testimony>
                     <p>16 de Fevereiro de 2023</p>
                     <img src={Depoimento06} alt="Depoimento" />

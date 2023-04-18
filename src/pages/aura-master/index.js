@@ -11,7 +11,7 @@ import Depoimento07 from './depoimentos/depoimento07.png';
 
 const Header = styled.div`
     max-width: 1920px;
-    height: 500px;
+    height: 200px;
     margin: 0 auto;
     background-image: url('happiness2.jpg');
     background-position: center top;
@@ -22,6 +22,10 @@ const Header = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (min-width: 767px) {
+        height: 500px;
+    }
 
     &::before {
         background: rgb(154, 21, 142,0.4) none repeat scroll 0 0;
@@ -117,6 +121,7 @@ const Testimonies = styled.div`
     justify-content: center;
     column-gap: 30px;
     flex-wrap: wrap;
+    padding: 0 10px;
 `
 
 const Testimony = styled.div`

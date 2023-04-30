@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEllipsis } from '@fortawesome/free-solid-svg-icons';
+import Depoimento00 from './depoimentos/depoimento00.png';
 import Depoimento01 from './depoimentos/depoimento01.png';
 import Depoimento02 from './depoimentos/depoimento02.png';
 import Depoimento03 from './depoimentos/depoimento03.png';
@@ -255,6 +256,10 @@ function AuraMaster () {
                 <Testimony>
                     <p>19 de Dezembro de 2022</p>
                     <img src={Depoimento01} alt="Depoimento" />
+                </Testimony>
+                <Testimony>
+                    <p>20 de Novembro de 2022</p>
+                    <img src={Depoimento00} alt="Depoimento" />
                 </Testimony>
             </Testimonies>
         </>

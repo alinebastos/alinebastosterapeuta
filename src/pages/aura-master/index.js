@@ -164,12 +164,12 @@ function AuraMaster () {
                 <ListWrapper>
                     <List>
                         <li>Enfrentar os medos</li>
+                        <li>Afastar pessoas tóxicas ou abusivas</li>
                         <li>Destravar a prosperidade e gerar riqueza</li>
                         <li>Ter soluções instantâneas para problemas difíceis</li>
                         <li>Elevar a vibração e energia vital de forma imediata</li>
                         <li>Curar relacionamentos</li>
                         <li>Aumentar a autoestima</li>
-                        <li>Mudar de carreira de forma equilibrada</li>
                         <li>Tratar fobias</li>
                         <li>Tratar depressão, crises de ansiedade e síndrome do pânico</li>
                         <li>Vencer o medo de falar em público</li>

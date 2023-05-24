@@ -217,7 +217,7 @@ function AuraMaster () {
                         <Icon icon={faEllipsis} />
                         <p><b>Valor do Pacote com 4 Sessões:</b> R$ 360,00</p>
                         <p><b><u>Formas de pagamento</u></b></p>
-                        <p><b>PIX:</b> 51983011098 (Banco Inter)</p>
+                        <p><b>PIX:</b> 51994619401 (Banco Inter - Em nome de Giovanna de Andrade Neves Crescêncio)</p>
                         <p><b>PayPal (Para pagamentos internacionais):</b> alineabp@gmail.com</p>
                         <p><b>Cartão de Crédito/Parcelamento:</b> <a href="https://mpago.la/13QpSbJ" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a><br /></p>
                         <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>

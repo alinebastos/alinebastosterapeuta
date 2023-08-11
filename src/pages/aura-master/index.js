@@ -220,7 +220,7 @@ function AuraMaster () {
                         <p><b>PIX:</b> 51983011098 (Banco Inter)</p>
                         <p><b>Cartão de Crédito/Parcelamento:</b> <a href="https://mpago.la/2CVr9Qv" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a><br /></p>
                         <p><b>PayPal (Para pagamentos internacionais):</b> alineabp@gmail.com</p>
-                        <p>O pagamento e o envio do comprovante devem ser feitos em até 24 horas antes da consulta para o <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
+                        <p>O comprovante de pagamento deve ser enviado para o <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
 
                         <ButtonLink href="https://calendly.com/alinebastos/agenda" target="_blank">Quero Agendar!</ButtonLink>
                     </Box>

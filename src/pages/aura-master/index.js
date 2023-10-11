@@ -215,9 +215,9 @@ function AuraMaster () {
                         <p><b>Lembre-se: o terapeuta é apenas um facilitador, você é responsável pelo seu processo!</b></p>
                         
                         <Icon icon={faEllipsis} />
-                        <p><b>Valor da Sessão:</b> R$ 150,00</p>
+                        <p><b>Valores:</b> R$ 300,00</p>
                         <p><b><u>Formas de pagamento</u></b></p>
-                        <p><b>PIX:</b> 51983011098 (Banco Inter)</p>
+                        <p><b>PIX:</b> alineabp@gmail.com</p>
                         <p><b>Cartão de Crédito/Parcelamento:</b> <a href="https://mpago.la/2CVr9Qv" target="_blank" rel="noreferrer" >Link para o Mercado Pago</a><br /></p>
                         <p><b>PayPal (Para pagamentos internacionais):</b> alineabp@gmail.com</p>
                         <p>O comprovante de pagamento deve ser enviado para o <a href='https://api.whatsapp.com/send?phone=5551983011098' target="_blank" rel="noreferrer">WhatsApp</a>.</p>
